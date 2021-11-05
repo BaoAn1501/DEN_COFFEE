@@ -1,12 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity:1.2.4@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f8e9ce848bc32e8368796c894fe5ad57/activity-1.2.4/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/de7b2f166d44aeb413182041cb7a1d9c/activity-1.2.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f8e9ce848bc32e8368796c894fe5ad57/activity-1.2.4/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f8e9ce848bc32e8368796c894fe5ad57/activity-1.2.4/res" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f8e9ce848bc32e8368796c894fe5ad57/activity-1.2.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/de7b2f166d44aeb413182041cb7a1d9c/activity-1.2.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/de7b2f166d44aeb413182041cb7a1d9c/activity-1.2.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/de7b2f166d44aeb413182041cb7a1d9c/activity-1.2.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

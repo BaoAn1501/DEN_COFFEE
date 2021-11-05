@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4c023e84682f7797dbf09716cc63be86/viewpager2-1.0.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4c023e84682f7797dbf09716cc63be86/viewpager2-1.0.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4c023e84682f7797dbf09716cc63be86/viewpager2-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4c023e84682f7797dbf09716cc63be86/viewpager2-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5d723b9ea2a3e9ad865b5d34e83c4810/viewpager2-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/4970efe8ccabb2c6cb289910540ff629/core-runtime-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

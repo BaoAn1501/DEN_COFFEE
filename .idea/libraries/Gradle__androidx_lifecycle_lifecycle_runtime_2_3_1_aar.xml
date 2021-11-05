@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.3.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5faf8b25e4fed9f7e888f396864d1b87/lifecycle-runtime-2.3.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5faf8b25e4fed9f7e888f396864d1b87/lifecycle-runtime-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/5faf8b25e4fed9f7e888f396864d1b87/lifecycle-runtime-2.3.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/9b2ea4b5368501ae9d83fc5402acc280/lifecycle-runtime-2.3.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/9b2ea4b5368501ae9d83fc5402acc280/lifecycle-runtime-2.3.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/9b2ea4b5368501ae9d83fc5402acc280/lifecycle-runtime-2.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

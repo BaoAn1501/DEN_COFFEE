@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "971859178733",
+    "project_id": "den-cafe",
+    "storage_bucket": "den-cafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971859178733:android:5ca654233dac8ecc0188e4",
+        "android_client_info": {
+          "package_name": "com.nhom7.den_cafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971859178733-t4tq329o3tg2679rmpgstell64fmncu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nhom7.den_cafe",
+            "certificate_hash": "1b72628418f0dcf5130c995ec0dd68b2359d5871"
+          }
+        },
+        {
+          "client_id": "971859178733-i2l5qe4cetd48cvd8i365p2c635jvv60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqoK21CTGKOoc1Gv-FtJMZO8r319MJ2Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971859178733-i2l5qe4cetd48cvd8i365p2c635jvv60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
