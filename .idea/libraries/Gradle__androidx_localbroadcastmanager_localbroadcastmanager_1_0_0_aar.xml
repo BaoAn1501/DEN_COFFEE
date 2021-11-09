@@ -5,10 +5,15 @@
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/f321dc6de199ac139f8a0802c11749c9/localbroadcastmanager-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/modules-2/files-2.1/androidx.localbroadcastmanager/localbroadcastmanager/1.0.0/3930e99159fd6b7f1d2e7d5fe9af0924ca1faf9/localbroadcastmanager-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/androidx.localbroadcastmanager/localbroadcastmanager/1.0.0/3930e99159fd6b7f1d2e7d5fe9af0924ca1faf9/localbroadcastmanager-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

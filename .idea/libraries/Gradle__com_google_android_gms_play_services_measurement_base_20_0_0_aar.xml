@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-base:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/fe339a28598d1308d02066197214acdf/jetified-play-services-measurement-base-20.0.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-base/20.0.0/ace98f39b262c59be4be4d52b871d1ba5dfff723/play-services-measurement-base-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

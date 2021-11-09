@@ -5,12 +5,18 @@
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/1bc03aa27eb7d2d53f05f8563194d8b6/monitor-1.4.0/res" />
       <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/1bc03aa27eb7d2d53f05f8563194d8b6/monitor-1.4.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../anfolder/androidstudio/caches/transforms-2/files-2.1/1bc03aa27eb7d2d53f05f8563194d8b6/monitor-1.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/1bc03aa27eb7d2d53f05f8563194d8b6/monitor-1.4.0/res" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/905dd2eafb37ea093b22065e9dacc2ee/monitor-1.4.0/res" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/905dd2eafb37ea093b22065e9dacc2ee/monitor-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/905dd2eafb37ea093b22065e9dacc2ee/monitor-1.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/2770e38fa6d39242c2fa2e9d2ca3275b1d9debd8/monitor-1.4.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/2770e38fa6d39242c2fa2e9d2ca3275b1d9debd8/monitor-1.4.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../anfolder/androidstudio/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/5d892d39aae695079e3ecc7a841336ff3aeaf40/monitor-1.4.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/androidx.test/monitor/1.4.0/5d892d39aae695079e3ecc7a841336ff3aeaf40/monitor-1.4.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
