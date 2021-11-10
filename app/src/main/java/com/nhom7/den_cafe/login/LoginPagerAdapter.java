@@ -2,7 +2,6 @@ package com.nhom7.den_cafe.login;
 
 import android.content.Context;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -24,10 +23,10 @@ public class LoginPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                LoginFragment loginFragment = new LoginFragment();
+                SignInFragment loginFragment = new SignInFragment();
                 return loginFragment;
             case 1:
-                SigninFragment signinFragment = new SigninFragment();
+                SignUpFragment signinFragment = new SignUpFragment();
                 return signinFragment;
             default:
                 return null;

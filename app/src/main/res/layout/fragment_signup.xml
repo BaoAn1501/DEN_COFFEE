@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edEmail_SignIn"
+        android:id="@+id/edEmail_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -24,9 +24,8 @@
             android:layout_height="match_parent"
             android:hint="email" />
     </com.google.android.material.textfield.TextInputLayout>
-
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edPass_SignIn"
+        android:id="@+id/edPass_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -35,31 +34,35 @@
         android:layout_marginEnd="20dp"
         android:background="@color/white"
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edEmail_SignIn"
         app:errorEnabled="true"
         app:passwordToggleEnabled="true">
-
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/tvForgot_SignIn"
-        android:textColor="@color/Brown"
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edConfirmPass_SignUp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Forgot Password"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edPass_SignIn" />
+        android:layout_marginTop="10dp"
+        app:boxBackgroundColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:errorEnabled="true"
+        app:passwordToggleEnabled="true">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="confirm password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvSignIn"
+        android:id="@+id/cvSignUp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="50dp"
@@ -76,46 +79,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Sign In"
+            android:text="Sign Up"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/tvOr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Or"
-        android:textAllCaps="true"
-        android:textColor="@color/Black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cvSignIn" />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/ivGoogle_SignIn"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/tabs_layout"
-        android:padding="10dp"
-        android:src="@drawable/googleicon"
-        app:layout_constraintEnd_toStartOf="@+id/tvOr"
-        app:layout_constraintTop_toBottomOf="@+id/tvOr"
-        tools:ignore="MissingConstraints" />
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/ivFacebook_SignIn"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/tabs_layout"
-        android:padding="10dp"
-        android:src="@drawable/faceicon"
-        app:layout_constraintStart_toEndOf="@+id/tvOr"
-        app:layout_constraintTop_toBottomOf="@+id/tvOr"
-        tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
