@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edEmail_SignUp"
+        android:id="@+id/edName_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -14,18 +14,21 @@
         android:layout_marginEnd="20dp"
         app:boxBackgroundColor="@color/white"
         app:errorEnabled="true"
+        app:errorTextColor="@color/Red"
+        app:boxStrokeErrorColor="@color/Red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="email" />
+            android:maxLines="1"
+            android:hint="name" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edPass_SignUp"
+        android:id="@+id/edEmail_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -33,17 +36,19 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@color/white"
-        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
         app:errorEnabled="true"
-        app:passwordToggleEnabled="true">
+        app:errorTextColor="@color/Red"
+        app:boxStrokeErrorColor="@color/Red"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="password"
-            android:inputType="textPassword" />
+            android:hint="email"
+            android:maxLines="1" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edConfirmPass_SignUp"
+        android:id="@+id/edPhone_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -51,15 +56,17 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@color/white"
-        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:startIconDrawable="@drawable/ic_baseline_call_24"
         app:errorEnabled="true"
-        app:passwordToggleEnabled="true">
-
+        app:errorTextColor="@color/Red"
+        app:boxStrokeErrorColor="@color/Red"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="confirm password"
-            android:inputType="textPassword" />
+            android:hint="số điện thoại"
+            android:maxLines="1"
+            android:inputType="phone"/>
     </com.google.android.material.textfield.TextInputLayout>
     <androidx.cardview.widget.CardView
         android:id="@+id/cvSignUp"
@@ -79,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Sign Up"
+            android:text="Đăng ký"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />

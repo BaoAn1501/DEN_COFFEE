@@ -6,46 +6,27 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edEmail_SignIn"
+        android:id="@+id/edPhone_SignIn"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         app:boxBackgroundColor="@color/white"
         app:errorEnabled="true"
+        app:errorTextColor="@color/Red"
+        app:boxStrokeErrorColor="@color/Red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:startIconDrawable="@drawable/ic_baseline_call_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="email" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edPass_SignIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:boxBackgroundColor="@color/white"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:background="@color/white"
-        app:startIconDrawable="@drawable/ic_baseline_lock_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edEmail_SignIn"
-        app:errorEnabled="true"
-        app:passwordToggleEnabled="true">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="password"
-            android:inputType="textPassword" />
+            android:maxLines="1"
+            android:inputType="phone"
+            android:hint="phone numer"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -53,10 +34,11 @@
         android:textColor="@color/Brown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Forgot Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Quên mật khẩu"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edPass_SignIn" />
+        app:layout_constraintTop_toBottomOf="@+id/edPhone_SignIn" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvSignIn"
@@ -76,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Sign In"
+            android:text="Đăng nhập"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -87,8 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Or"
-        android:textAllCaps="true"
+        android:text="hoặc"
         android:textColor="@color/Black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

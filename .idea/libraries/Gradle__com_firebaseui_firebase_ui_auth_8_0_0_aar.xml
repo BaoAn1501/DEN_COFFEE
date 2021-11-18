@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.firebaseui:firebase-ui-auth:8.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/res" />
+      <root url="file://$USER_HOME$/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-auth/8.0.0/16e7539931ec5dbc9b6aee5b6b5e868be5be99cb/firebase-ui-auth-8.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/MOB202/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-auth/8.0.0/66425615e7e0dd775b163d504a50cb4a5bb69273/firebase-ui-auth-8.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

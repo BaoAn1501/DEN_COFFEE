@@ -3,17 +3,9 @@ package com.nhom7.den_cafe.login;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.tabs.TabLayoutMediator;
-import com.nhom7.den_cafe.MainActivity;
 import com.nhom7.den_cafe.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -31,5 +23,6 @@ public class LoginActivity extends AppCompatActivity {
         if (tabLayout != null) {
             tabLayout.setupWithViewPager(viewPager);
         }
+
     }
 }
