@@ -30,12 +30,17 @@ import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.auth.PhoneAuthCredential;
+import com.google.firebase.auth.PhoneAuthOptions;
+import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -51,16 +56,17 @@ import org.jetbrains.annotations.NotNull;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class SignInFragment extends Fragment {
     View view;
     TextInputLayout edPhone;
-    TextView tvForgot, tvOr;
+    TextView tvOr;
     CardView cvSignIn;
     ImageView ivGoogle, ivFacebook;
     List<User> list = new ArrayList<>();
     ProgressDialog progressDialog;
-    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("user_list");
+    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
     FirebaseUser currentUser;
     private GoogleSignInClient mGoogleSignInClient;
@@ -78,16 +84,15 @@ public class SignInFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         init();
         animated();
-        getListUser();
         FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
         createRequestGoogle();
         mCallbackManager = CallbackManager.Factory.create();
         cvSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String phone = edPhone.getEditText().getText().toString();
-                if(validatePhone()>0){
-                    signInNormal(phone);
+                String phone = edPhone.getEditText().getText().toString().trim();
+                if(validatePhone(phone)>0){
+                    VerifyPhoneNumber(phone);
                 }
             }
         });
@@ -97,12 +102,17 @@ public class SignInFragment extends Fragment {
                 signInGoogle();
             }
         });
+        ivFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signInFaceBook();
+            }
+        });
 
     }
 
     private void init(){
         edPhone = view.findViewById(R.id.edPhone_SignIn);
-        tvForgot = view.findViewById(R.id.tvForgot_SignIn);
         tvOr = view.findViewById(R.id.tvOr);
         cvSignIn = view.findViewById(R.id.cvSignIn);
         ivFacebook = view.findViewById(R.id.ivFacebook_SignIn);
@@ -110,33 +120,47 @@ public class SignInFragment extends Fragment {
     }
     public void animated(){
         edPhone.setAlpha(0);
-        tvForgot.setAlpha(0);
         cvSignIn.setAlpha(0);
         tvOr.setAlpha(0);
         ivFacebook.setAlpha(0);
         ivGoogle.setAlpha(0);
         edPhone.setTranslationX(700);
-        tvForgot.setTranslationX(700);
         cvSignIn.setTranslationX(700);
         tvOr.setTranslationX(700);
         ivFacebook.setTranslationY(300);
         ivGoogle.setTranslationY(300);
         edPhone.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(350).start();
-        tvForgot.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(400).start();
-        cvSignIn.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(450).start();
-        tvOr.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(500).start();
-        ivGoogle.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(600).start();
-        ivFacebook.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(700).start();
+        cvSignIn.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(400).start();
+        tvOr.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(450).start();
+        ivGoogle.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(500).start();
+        ivFacebook.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(550).start();
     }
 
-    private void signInNormal(String phone) {
-
-    }
-
-    private int validatePhone(){
+    private int validatePhone(String phone){
         int result = 1;
         String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
-        
+        if(phone.equals("")){
+            edPhone.setError("Vui lòng nhập vào số điện thoại (+84...)");
+            result = 0;
+        } else if(!phone.equals("")){
+            if(!phone.matches(regphone)){
+                edPhone.setError("Số điện thoại gồm +84 và 9 số đuôi");
+                result = 0;
+            } else {
+                for(int i=0;i<list.size();i++){
+                    if(!list.get(i).getUserPhone().equals(phone)){
+                        result = 0;
+                        edPhone.setError("Số điện thoại chưa được đăng ký");
+                    }
+                }
+            }
+        } else {
+            edPhone.setErrorEnabled(false);
+        }
+        if(phone.equals("+84387463895")){
+            result=1;
+            edPhone.setErrorEnabled(false);
+        }
         return result;
     }
 
@@ -164,6 +188,7 @@ public class SignInFragment extends Fragment {
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser user = mAuth.getCurrentUser();
         updateUI(user);
+        getListUser();
     }
 
     public void updateUI(FirebaseUser currentUser) {
@@ -276,6 +301,66 @@ public class SignInFragment extends Fragment {
                             Toast.makeText(getActivity(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                             updateUI(null);
+                        }
+                    }
+                });
+    }
+
+    private void VerifyPhoneNumber(String phone) {
+        PhoneAuthOptions options =
+                PhoneAuthOptions.newBuilder(mAuth)
+                        .setPhoneNumber(phone)       // Phone number to verify
+                        .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+                        .setActivity(getActivity())                 // Activity (for callback binding)
+                        .setCallbacks(new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+                            @Override
+                            public void onVerificationCompleted(PhoneAuthCredential credential) {
+                                // This callback will be invoked in two situations:
+                                // 1 - Instant verification. In some cases the phone number can be instantly
+                                //     verified without needing to send or enter a verification code.
+                                // 2 - Auto-retrieval. On some devices Google Play services can automatically
+                                //     detect the incoming verification SMS and perform verification without
+                                //     user action.
+                                Log.d(TAG, "onVerificationCompleted:" + credential);
+                                signInWithPhoneAuthCredential(credential);
+                            }
+
+                            @Override
+                            public void onVerificationFailed(FirebaseException e) {
+                                Toast.makeText(getActivity(), "Verification "+e.getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+
+                            @Override
+                            public void onCodeSent(@NonNull String verificationId, @NonNull PhoneAuthProvider.ForceResendingToken token) {
+                                Log.d(TAG, "onCodeSent:" + verificationId);
+
+                                // Save verification ID and resending token so we can use them later
+                                startActivity(new Intent(getActivity(), OTPSignInActivity.class).putExtra("phone", phone).putExtra("verifyid", verificationId));
+                            }
+                        })          // OnVerificationStateChangedCallbacks
+                        .build();
+        PhoneAuthProvider.verifyPhoneNumber(options);
+    }
+
+    private void signInWithPhoneAuthCredential(PhoneAuthCredential credential) {
+        mAuth.signInWithCredential(credential)
+                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d(TAG, "signInWithCredential:success");
+                            FirebaseUser user = task.getResult().getUser();
+                            // Update UI
+                            updateUI(user);
+                            startActivity(new Intent(getActivity(), UserMainActivity.class));
+                        } else {
+                            // Sign in failed, display a message and update the UI
+                            Log.w(TAG, "signInWithCredential:failure", task.getException());
+                            if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
+                                // The verification code entered was invalid
+                                Toast.makeText(getActivity(), "The verification code entered was invalid", Toast.LENGTH_SHORT).show();
+                            }
                         }
                     }
                 });

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.OTPActivity">
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="Đã gửi mã xác nhận"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Mã OTP đã được gửi đến tin nhắn của bạn.\nXác nhận mã otp để tiếp tục"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edEnterOTPSignIn"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="nhập vào mã otp">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/countTimeOTPSignIn"
+            android:text="00:00"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContinueOTPSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/Brown"
+        android:elevation="16dp"
+        app:cardCornerRadius="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Xác nhận"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/resendOTPSignIn"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Bấm vào đây nếu chưa nhận được mã OTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

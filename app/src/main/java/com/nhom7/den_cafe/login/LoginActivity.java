@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 import com.nhom7.den_cafe.R;
+import com.nhom7.den_cafe.adapter.LoginPagerAdapter;
 
 public class LoginActivity extends AppCompatActivity {
     TabLayout tabLayout;

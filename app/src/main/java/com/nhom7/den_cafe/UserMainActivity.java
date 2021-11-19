@@ -27,8 +27,6 @@ public class UserMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_main);
         bnv_Main = findViewById(R.id.bnv_UserMain);
-        User user = (User) getIntent().getSerializableExtra("user");
-        Toast.makeText(this, "User name"+user.getUserName(), Toast.LENGTH_SHORT).show();
         bnv_Main.add(new MeowBottomNavigation.Model(1,R.drawable.ic_baseline_analytics_24));
         bnv_Main.add(new MeowBottomNavigation.Model(2,R.drawable.ic_baseline_receipt_long_24));
         bnv_Main.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_local_library_24));

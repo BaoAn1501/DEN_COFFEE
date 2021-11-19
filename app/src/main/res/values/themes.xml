@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Den_cafe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Den_cafe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,22 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomsheetstyle</item>
+    </style>
+    <style name="bottomsheetstyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="dialog_alert" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- màu tiêu đề-->
+        <item name="android:textColorPrimary">@color/Brown</item>
+        <!--màu chữ yes no-->
+        <item name="colorOnPrimary">@color/Brown</item>
+        <!--màu nền hộp thoại-->
+        <item name="android:colorBackground">@color/White</item>
+        <!--cài góc bo cho hộp thoại dialog-->
+        <item name="dialogCornerRadius">20dp</item>
+        <!--        <item name="android:windowBackground">@color/White</item>-->
     </style>
 </resources>

@@ -26,6 +26,7 @@ import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.nhom7.den_cafe.AdminMainActivity;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.UserMainActivity;
 import com.nhom7.den_cafe.model.User;
@@ -33,31 +34,31 @@ import com.nhom7.den_cafe.model.User;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-public class OTPActivity extends AppCompatActivity {
+public class OTPSignInActivity extends AppCompatActivity {
+
     TextInputLayout edCode;
     CardView cvContinue;
     TextView tvCount, tvResend;
     User mUser;
     private String verifyid;
+    String phonenumber;
     private PhoneAuthProvider.ForceResendingToken mToken;
     private static final String TAG = OTPActivity.class.getName();
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
-    private DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
     private CountDownTimer count;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otpactivity);
+        setContentView(R.layout.activity_otpsign_in);
         init();
         updateTime();
+
         tvResend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickSendAgain();
                 count.cancel();
                 updateTime();
-                Toast.makeText(OTPActivity.this, "Resend OTP", Toast.LENGTH_SHORT).show();
             }
         });
         cvContinue.setOnClickListener(new View.OnClickListener() {
@@ -69,10 +70,10 @@ public class OTPActivity extends AppCompatActivity {
         });
     }
     private void init(){
-        edCode = findViewById(R.id.edEnterOTP);
-        cvContinue = findViewById(R.id.cvContinueOTP);
-        tvCount = findViewById(R.id.countTimeOTP);
-        tvResend = findViewById(R.id.resendOTP);
+        edCode = findViewById(R.id.edEnterOTPSignIn);
+        cvContinue = findViewById(R.id.cvContinueOTPSignIn);
+        tvCount = findViewById(R.id.countTimeOTPSignIn);
+        tvResend = findViewById(R.id.resendOTPSignIn);
         getDataIntent();
     }
     private void updateTime(){
@@ -92,10 +93,10 @@ public class OTPActivity extends AppCompatActivity {
             }
         }.start();
     }
+
     private void getDataIntent(){
-        mUser = (User) getIntent().getSerializableExtra("user");
         verifyid = getIntent().getStringExtra("verifyid");
-//        phonenumber = getIntent().getStringExtra("phone");
+        phonenumber = getIntent().getStringExtra("phone");
     }
 
     private void onClickSendOtp(String strOtp) {
@@ -106,7 +107,7 @@ public class OTPActivity extends AppCompatActivity {
     private void onClickSendAgain() {
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(mAuth)
-                        .setPhoneNumber(mUser.getUserPhone())       // Phone number to verify
+                        .setPhoneNumber(phonenumber)       // Phone number to verify
                         .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
                         .setActivity(this)                 // Activity (for callback binding)
                         .setForceResendingToken(mToken)
@@ -126,7 +127,7 @@ public class OTPActivity extends AppCompatActivity {
 
                             @Override
                             public void onVerificationFailed(FirebaseException e) {
-                                Toast.makeText(OTPActivity.this, "Verification Failed"+e.getMessage(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(OTPSignInActivity.this, "Verification Failed"+e.getMessage(), Toast.LENGTH_SHORT).show();
                             }
 
                             @Override
@@ -151,21 +152,19 @@ public class OTPActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = task.getResult().getUser();
-                            mUser.setUserId(user.getUid());
-                            userRef.child(mUser.getUserId()).setValue(mUser).addOnSuccessListener(new OnSuccessListener<Void>() {
-                                @Override
-                                public void onSuccess(Void unused) {
-                                    Toast.makeText(OTPActivity.this, "Thêm người dùng thànhc công", Toast.LENGTH_SHORT).show();
-                                }
-                            });
-                            startActivity(new Intent(OTPActivity.this, UserMainActivity.class));
+                            if(phonenumber.equals("+84387463895")){
+                                startActivity(new Intent(OTPSignInActivity.this, AdminMainActivity.class).putExtra("phone", phonenumber));
+                            } else{
+                                startActivity(new Intent(OTPSignInActivity.this, UserMainActivity.class).putExtra("phone", phonenumber));
+                            }
+
                             // Update UI
                         } else {
                             // Sign in failed, display a message and update the UI
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 // The verification code entered was invalid
-                                Toast.makeText(OTPActivity.this, "Mã OTP không hợp lệ", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(OTPSignInActivity.this, "Mã OTP không hợp lệ", Toast.LENGTH_SHORT).show();
                             }
                         }
                     }

@@ -16,7 +16,6 @@ import org.jetbrains.annotations.NotNull;
 public class UMOrderFragment extends Fragment {
 
     View view;
-
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override

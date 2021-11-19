@@ -32,6 +32,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.i18n.phonenumbers.NumberParseException;
+import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import com.google.i18n.phonenumbers.Phonenumber;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.UserMainActivity;
 import com.nhom7.den_cafe.model.User;
@@ -49,7 +52,7 @@ public class SignUpFragment extends Fragment {
     CardView cvSignUp;
     public static final String TAG = SignUpFragment.class.getName();
     private ProgressDialog progressDialog;
-    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("user_list");
+    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
     List<User> list = new ArrayList<>();
     User mUser;
@@ -72,8 +75,8 @@ public class SignUpFragment extends Fragment {
                     String name = edName.getEditText().getText().toString().trim();
                     String phone = edPhone.getEditText().getText().toString().trim();
                     String email = edEmail.getEditText().getText().toString().trim();
-                    mUser = new User(name, email, phone);
-                    signUpUser(mUser);
+                    mUser = new User(name, phone, email);
+                    onClickVerifyPhoneNumber();
                 }
             }
         });
@@ -161,10 +164,11 @@ public class SignUpFragment extends Fragment {
         int result = 1;
         String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
         if(!edPhone.getEditText().getText().toString().trim().matches(regphone)){
-            edPhone.setError("Số điện thoại gồm +84 + 9 chữ số điện thoại của bạn");
+            edPhone.setError("Số điện thoại gồm không đúng định dạng");
             result=0;
         } else if(edPhone.getEditText().getText().toString().trim().equals("")){
             edPhone.setError("Số điện thoại không được để trống");
+            result=0;
         } else {
             edPhone.setErrorEnabled(false);
         }
@@ -209,10 +213,10 @@ public class SignUpFragment extends Fragment {
         });
     }
 
-    private void signUpUser(User user) {
+    private void onClickVerifyPhoneNumber() {
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(mAuth)
-                        .setPhoneNumber(user.getUserPhone())       // Phone number to verify
+                        .setPhoneNumber(mUser.getUserPhone())       // Phone number to verify
                         .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
                         .setActivity(getActivity())                 // Activity (for callback binding)
                         .setCallbacks(new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
@@ -230,7 +234,7 @@ public class SignUpFragment extends Fragment {
 
                             @Override
                             public void onVerificationFailed(FirebaseException e) {
-                                Toast.makeText(getContext(), "Verification Failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "Verification "+mUser.getUserPhone()+e.getMessage(), Toast.LENGTH_SHORT).show();
                             }
 
                             @Override
@@ -238,7 +242,7 @@ public class SignUpFragment extends Fragment {
                                 Log.d(TAG, "onCodeSent:" + verificationId);
 
                                 // Save verification ID and resending token so we can use them later
-                                startActivity(new Intent(getActivity(), OTPActivity.class).putExtra("user", user).putExtra("verifyid", verificationId));
+                                startActivity(new Intent(getActivity(), OTPActivity.class).putExtra("user", mUser).putExtra("verifyid", verificationId));
                             }
                         })          // OnVerificationStateChangedCallbacks
                         .build();
@@ -255,13 +259,13 @@ public class SignUpFragment extends Fragment {
                             FirebaseUser user = task.getResult().getUser();
                             // Update UI
                             mUser.setUserId(user.getUid());
-                            startActivity(new Intent(getActivity(), UserMainActivity.class).putExtra("user", mUser));
+//                            startActivity(new Intent(getActivity(), OTPActivity.class).putExtra("user", mUser));
                         } else {
                             // Sign in failed, display a message and update the UI
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 // The verification code entered was invalid
-                                Toast.makeText(getActivity(), "Mã otp không hợp lệ", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "The verification code entered was invalid", Toast.LENGTH_SHORT).show();
                             }
                         }
                     }

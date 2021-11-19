@@ -26,19 +26,8 @@
             android:layout_height="match_parent"
             android:maxLines="1"
             android:inputType="phone"
-            android:hint="phone numer"/>
+            android:hint="số điện thoại"/>
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/tvForgot_SignIn"
-        android:textColor="@color/Brown"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:text="Quên mật khẩu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edPhone_SignIn" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvSignIn"
@@ -52,7 +41,7 @@
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvForgot_SignIn">
+        app:layout_constraintTop_toBottomOf="@id/edPhone_SignIn">
 
         <TextView
             android:layout_width="match_parent"

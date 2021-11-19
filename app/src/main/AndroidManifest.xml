@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.nhom7.den_cafe">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,17 +15,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Den_cafe">
-        <activity android:name=".login.OTPActivity"/>
+        <activity android:name=".login.OTPSignInActivity">
+        </activity>
+        <activity android:name=".login.OTPActivity" />
         <activity android:name=".UserMainActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".SplashActivity">
+
+        </activity>
+        <activity android:name=".AdminMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AdminMainActivity" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
