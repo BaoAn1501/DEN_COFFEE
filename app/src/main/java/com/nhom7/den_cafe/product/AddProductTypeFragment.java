@@ -1,5 +1,6 @@
 package com.nhom7.den_cafe.product;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -45,6 +46,7 @@ public class AddProductTypeFragment extends Fragment {
     private StorageReference storageRef;
     private DatabaseReference databaseRef;
     private StorageTask storageTask;
+    ProgressDialog progressDialog;
     ProductType typeUD;
     int intype;
     private Uri mImageUri;
@@ -89,7 +91,12 @@ public class AddProductTypeFragment extends Fragment {
         cvAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addProductType();
+                if(edName.getEditText().getText().toString().trim().equals("")){
+                    edName.setError("Bạn chưa nhập vào tên cho loại sản phẩm");
+                } else {
+                    edName.setErrorEnabled(false);
+                    addProductType();
+                }
             }
         });
     }
@@ -105,6 +112,9 @@ public class AddProductTypeFragment extends Fragment {
 
     private void addProductType() {
         if (mImageUri != null) {
+            progressDialog = new ProgressDialog(getContext());
+            progressDialog.setMessage("Đang xử lý...");
+            progressDialog.show();
             String key = UUID.randomUUID().toString();
             StorageReference fileReference = storageRef.child("imageType/" + key);
             storageTask = fileReference.putFile(mImageUri)
@@ -119,18 +129,24 @@ public class AddProductTypeFragment extends Fragment {
                                     edName.getEditText().getText().toString().trim(),
                                     imageUrl);
                             if(intype==1){
-                                databaseRef.child(key).setValue(type);
-                                Toast.makeText(getContext(), "Đã thêm loại sản phẩm", Toast.LENGTH_SHORT).show();
-                                loadFragment(new AMProductFragment());
+                                databaseRef.child(key).setValue(type).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        progressDialog.dismiss();
+                                        loadFragment(new AMProductFragment());
+                                        Toast.makeText(getContext(), "Đã thêm loại sản phẩm", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
                             } else if(intype==2) {
                                 databaseRef.child(typeUD.getTypeId()).setValue(type).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {
-                                        Toast.makeText(getContext(), "Đã cập nhật loại sản phẩm", Toast.LENGTH_SHORT).show();
                                         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
                                         StorageReference imageRef = firebaseStorage.getReferenceFromUrl(typeUD.getTypeImage());
                                         imageRef.delete();
+                                        progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
+                                        Toast.makeText(getContext(), "Đã cập nhật loại sản phẩm", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }

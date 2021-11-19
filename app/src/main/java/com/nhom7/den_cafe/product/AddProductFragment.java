@@ -1,5 +1,6 @@
 package com.nhom7.den_cafe.product;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -60,6 +61,7 @@ public class AddProductFragment extends Fragment {
     private StorageTask storageTask;
     Product productUD;
     Uri mImageUri;
+    ProgressDialog progressDialog;
     int intype;
     @Nullable
     @org.jetbrains.annotations.Nullable
@@ -103,7 +105,9 @@ public class AddProductFragment extends Fragment {
         cvAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addProduct();
+                if(validateProductName()>0 && validateProductPrice()>0){
+                    addProduct();
+                }
             }
         });
     }
@@ -194,6 +198,9 @@ public class AddProductFragment extends Fragment {
 
     private void addProduct() {
         if (mImageUri != null) {
+            progressDialog = new ProgressDialog(getContext());
+            progressDialog.setMessage("Đang xử lý...");
+            progressDialog.show();
             String key = UUID.randomUUID().toString();
             StorageReference fileReference = storageRef.child("imageProduct/" + key);
             storageTask = fileReference.putFile(mImageUri)
@@ -211,9 +218,14 @@ public class AddProductFragment extends Fragment {
                             product.setProductPrice(Integer.parseInt(edPrice.getEditText().getText().toString().trim()));
                             product.setProductType(spnType.getSelectedItem().toString());
                             if(intype==1){
-                                productRef.child(key).setValue(product);
-                                Toast.makeText(getContext(), "Đã thêm sản phẩm", Toast.LENGTH_SHORT).show();
-                                loadFragment(new AMProductFragment());
+                                productRef.child(key).setValue(product).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        progressDialog.dismiss();
+                                        loadFragment(new AMProductFragment());
+                                        Toast.makeText(getContext(), "Đã thêm sản phẩm", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
                             } else if(intype==2) {
                                 productUD.setProductName(edName.getEditText().getText().toString().trim());
                                 productUD.setProductImage(imageUrl);
@@ -222,11 +234,12 @@ public class AddProductFragment extends Fragment {
                                 productRef.child(productUD.getProductId()).setValue(productUD).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {
-                                        Toast.makeText(getContext(), "Đã cập nhật sản phẩm", Toast.LENGTH_SHORT).show();
                                         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
                                         StorageReference imageRef = firebaseStorage.getReferenceFromUrl(productUD.getProductImage());
                                         imageRef.delete();
+                                        progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
+                                        Toast.makeText(getContext(), "Đã cập nhật sản phẩm", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }
@@ -238,4 +251,27 @@ public class AddProductFragment extends Fragment {
             Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho sản phẩm", Toast.LENGTH_SHORT).show();
         }
     }
+
+    private int validateProductName(){
+        int result = 1;
+        if(edName.getEditText().getText().toString().trim().equals("")){
+            edName.setError("Bạn chưa nhập tên cho sản phẩm");
+            result = 0;
+        } else {
+            edName.setErrorEnabled(false);
+        }
+        return result;
+    }
+
+    private int validateProductPrice(){
+        int result = 1;
+        if(edPrice.getEditText().getText().toString().trim().equals("")){
+            edPrice.setError("Bạn chưa nhập giá cho sản phẩm");
+            result = 0;
+        } else {
+            edPrice.setErrorEnabled(false);
+        }
+        return result;
+    }
+
 }
