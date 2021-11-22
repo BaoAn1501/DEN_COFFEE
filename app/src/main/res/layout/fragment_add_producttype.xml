@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/ivBackAPTF"
         android:layout_margin="20dp"
-        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24_red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <de.hdodenhof.circleimageview.CircleImageView

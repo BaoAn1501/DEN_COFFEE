@@ -73,7 +73,6 @@ public class UMPersonFragment extends Fragment {
         init();
 //        showUserInfo();
         getUser();
-        Toast.makeText(getActivity(), "phone: "+currentUser.getPhoneNumber(), Toast.LENGTH_SHORT).show();
         cvLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,12 +80,6 @@ public class UMPersonFragment extends Fragment {
                     mAuth.signOut();
                     startActivity(new Intent(getActivity(), LoginActivity.class));
                 }
-            }
-        });
-        ivProfile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                chooseImage();
             }
         });
     }
@@ -110,7 +103,7 @@ public class UMPersonFragment extends Fragment {
                         tvName.setText(user.getUserName());
                         tvEmail.setText(user.getUserEmail());
                         tvPhone.setText(user.getUserPhone());
-                        ivProfile.setImageURI(Uri.parse(user.getUserAvatar()));
+
                     }
                 }
             }
@@ -119,51 +112,5 @@ public class UMPersonFragment extends Fragment {
 
             }
         });
-    }
-
-    private void chooseImage(){
-        Intent intent = new Intent();
-        intent.setType("image/*");
-        intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(intent, PICK_IMAGE_REQUEST);
-        if(mImageUri!=null){
-            userRef.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
-                    for(DataSnapshot dataSnapshot:snapshot.getChildren()){
-                        User user = dataSnapshot.getValue(User.class);
-                        if(user.getUserPhone().equals(currentUser.getPhoneNumber())){
-                            StorageReference fileReference = imgRef.child("userImage/" + user.getUserId());
-                            storageTask = fileReference.putFile(mImageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                                    Task<Uri> uri = taskSnapshot.getStorage().getDownloadUrl();
-                                    while(!uri.isComplete());
-                                    Uri url = uri.getResult();
-                                    String imageUrl = url.toString();
-                                    userRef.child(user.getUserId()).child("userAvatar").setValue(imageUrl);
-                                }
-                            });
-                        }
-                    }
-                }
-                @Override
-                public void onCancelled(@NonNull @NotNull DatabaseError error) {
-
-                }
-            });
-        }
-
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == PICK_IMAGE_REQUEST
-                && data != null && data.getData() != null) {
-            mImageUri = data.getData();
-            ivProfile.setImageURI(mImageUri);
-            Glide.with(this).load(mImageUri).into(ivProfile);
-        }
     }
 }

@@ -12,7 +12,6 @@ import com.nhom7.den_cafe.home.AMChatFragment;
 import com.nhom7.den_cafe.home.AMOrderFragment;
 import com.nhom7.den_cafe.home.AMProductFragment;
 import com.nhom7.den_cafe.home.AMAnalysisFragment;
-import com.nhom7.den_cafe.home.UMProductFragment;
 
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
@@ -28,7 +27,7 @@ public class AdminMainActivity extends AppCompatActivity {
         bnv_Main.add(new MeowBottomNavigation.Model(2,R.drawable.ic_baseline_receipt_long_24));
         bnv_Main.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_local_library_24));
         bnv_Main.add(new MeowBottomNavigation.Model(4,R.drawable.ic_baseline_chat_24));
-        bnv_Main.add(new MeowBottomNavigation.Model(5,R.drawable.ic_baseline_person_24));
+        bnv_Main.add(new MeowBottomNavigation.Model(5,R.drawable.ic_baseline_person_24_red));
         bnv_Main.show(3,true);
         replace(new AMProductFragment());
         bnv_Main.setOnClickMenuListener(new Function1<MeowBottomNavigation.Model, Unit>() {

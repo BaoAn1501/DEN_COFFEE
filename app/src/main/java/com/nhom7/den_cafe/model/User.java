@@ -8,15 +8,6 @@ public class User implements Serializable {
     private String userName;
     private String userPhone;
     private String userEmail;
-    private String userAvatar;
-
-    public User(String userId, String userName, String userPhone, String userEmail, String userAvatar) {
-        this.userId = userId;
-        this.userName = userName;
-        this.userPhone = userPhone;
-        this.userEmail = userEmail;
-        this.userAvatar = userAvatar;
-    }
 
     public User(String userId, String userName, String userPhone, String userEmail) {
         this.userId = userId;
@@ -64,13 +55,5 @@ public class User implements Serializable {
 
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
-    }
-
-    public String getUserAvatar() {
-        return userAvatar;
-    }
-
-    public void setUserAvatar(String userAvatar) {
-        this.userAvatar = userAvatar;
     }
 }

@@ -17,7 +17,7 @@
         app:errorTextColor="@color/Red"
         app:boxStrokeErrorColor="@color/Red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconDrawable="@drawable/ic_baseline_person_24_red"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -36,7 +36,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@color/white"
-        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:startIconDrawable="@drawable/ic_baseline_email_24_red"
         app:errorEnabled="true"
         app:errorTextColor="@color/Red"
         app:boxStrokeErrorColor="@color/Red"
@@ -56,7 +56,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@color/white"
-        app:startIconDrawable="@drawable/ic_baseline_call_24"
+        app:startIconDrawable="@drawable/ic_baseline_call_24_red"
         app:errorEnabled="true"
         app:errorTextColor="@color/Red"
         app:boxStrokeErrorColor="@color/Red"

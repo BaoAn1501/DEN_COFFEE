@@ -17,7 +17,7 @@
         app:errorTextColor="@color/Red"
         app:boxStrokeErrorColor="@color/Red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:startIconDrawable="@drawable/ic_baseline_call_24"
+        app:startIconDrawable="@drawable/ic_baseline_call_24_red"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

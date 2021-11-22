@@ -194,7 +194,7 @@ public class SignInFragment extends Fragment {
     public void updateUI(FirebaseUser currentUser) {
         if(currentUser != null){
             try {
-                if(currentUser.getEmail().equals("cafeden_vau")){
+                if(currentUser.getPhoneNumber().equals("+84387463895")){
                     startActivity(new Intent(getActivity(), AdminMainActivity.class));
                 }else {
                     startActivity(new Intent(getActivity(), UserMainActivity.class));

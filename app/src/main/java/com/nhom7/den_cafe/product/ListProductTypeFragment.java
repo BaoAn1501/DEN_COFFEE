@@ -45,6 +45,17 @@ public class ListProductTypeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         rcv = view.findViewById(R.id.rcvLPTF);
         fab = view.findViewById(R.id.fabLPTF);
+        rcv.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull @NotNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                if(dy>0){
+                    fab.hide();
+                } else {
+                    fab.show();
+                }
+            }
+        });
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

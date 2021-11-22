@@ -14,6 +14,8 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.login.LoginActivity;
 
@@ -26,6 +28,8 @@ public class AMPersonFragment extends Fragment {
     View view;
     TextView tvName, tvPhone, tvEmail;
     CardView cvLogout;
+    private FirebaseAuth mAuth = FirebaseAuth.getInstance();
+    private FirebaseUser currentUser = mAuth.getCurrentUser();
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -41,7 +45,10 @@ public class AMPersonFragment extends Fragment {
         cvLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), LoginActivity.class));
+                if(currentUser!=null){
+                    mAuth.signOut();
+                    startActivity(new Intent(getActivity(), LoginActivity.class));
+                }
             }
         });
     }

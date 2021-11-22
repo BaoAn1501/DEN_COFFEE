@@ -8,16 +8,14 @@ public class Product implements Serializable {
     private int productPrice;
     private String productImage;
     private String productType;
-    private boolean isWish;
     private float rating;
 
-    public Product(String productId, String productName, int productPrice, String productImage, String productType, boolean isWish, float rating) {
+    public Product(String productId, String productName, int productPrice, String productImage, String productType, float rating) {
         this.productId = productId;
         this.productName = productName;
         this.productPrice = productPrice;
         this.productImage = productImage;
         this.productType = productType;
-        this.isWish = isWish;
         this.rating = rating;
     }
 
@@ -55,14 +53,6 @@ public class Product implements Serializable {
 
     public void setProductImage(String productImage) {
         this.productImage = productImage;
-    }
-
-    public boolean isWish() {
-        return isWish;
-    }
-
-    public void setWish(boolean wish) {
-        isWish = wish;
     }
 
     public float getRating() {

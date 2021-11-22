@@ -56,6 +56,17 @@ public class ListProductAFragment extends Fragment {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameLayoutAMPDF, fragment, null).commit();
             }
         });
+        rcv.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull @NotNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                if(dy>0){
+                    fab.hide();
+                } else {
+                    fab.show();
+                }
+            }
+        });
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         rcv.setLayoutManager(manager);
         addToRealtimeDatabase();

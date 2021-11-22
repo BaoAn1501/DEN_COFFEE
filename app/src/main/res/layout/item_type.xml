@@ -4,8 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardElevation="16dp"
-    android:layout_marginBottom="1dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="8dp"
     android:id="@+id/cvItemType">
 
     <androidx.constraintlayout.widget.ConstraintLayout
