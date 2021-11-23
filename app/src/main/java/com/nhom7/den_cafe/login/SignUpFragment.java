@@ -163,13 +163,14 @@ public class SignUpFragment extends Fragment {
     private int validatePhone(){
         int result = 1;
         String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
-        if(!edPhone.getEditText().getText().toString().trim().matches(regphone)){
-            edPhone.setError("Số điện thoại gồm không đúng định dạng");
-            result=0;
-        } else if(edPhone.getEditText().getText().toString().trim().equals("")){
+        if(edPhone.getEditText().getText().toString().trim().equals("")){
             edPhone.setError("Số điện thoại không được để trống");
             result=0;
-        } else {
+        } else if(!edPhone.getEditText().getText().toString().trim().matches(regphone)){
+            edPhone.setError("Số điện thoại không đúng định dạng");
+            result=0;
+        }
+            else {
             edPhone.setErrorEnabled(false);
         }
         for(int i=0;i<list.size();i++){

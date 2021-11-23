@@ -3,6 +3,8 @@ package com.nhom7.den_cafe.login;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -86,12 +88,14 @@ public class SignInFragment extends Fragment {
         animated();
         FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
         createRequestGoogle();
+        getListUser();
+        validation();
         mCallbackManager = CallbackManager.Factory.create();
         cvSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String phone = edPhone.getEditText().getText().toString().trim();
-                if(validatePhone(phone)>0){
+                if(validatePhone()>0){
                     VerifyPhoneNumber(phone);
                 }
             }
@@ -135,29 +139,30 @@ public class SignInFragment extends Fragment {
         ivGoogle.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(500).start();
         ivFacebook.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(550).start();
     }
-
-    private int validatePhone(String phone){
+    private int validatePhone(){
         int result = 1;
         String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
-        if(phone.equals("")){
-            edPhone.setError("Vui lòng nhập vào số điện thoại (+84...)");
-            result = 0;
-        } else if(!phone.equals("")){
-            if(!phone.matches(regphone)){
-                edPhone.setError("Số điện thoại gồm +84 và 9 số đuôi");
-                result = 0;
-            } else {
-                for(int i=0;i<list.size();i++){
-                    if(!list.get(i).getUserPhone().equals(phone)){
-                        result = 0;
-                        edPhone.setError("Số điện thoại chưa được đăng ký");
-                    }
-                }
-            }
-        } else {
+        if(edPhone.getEditText().getText().toString().trim().equals("")){
+            edPhone.setError("Số điện thoại không được để trống");
+            result=0;
+        } else if(!edPhone.getEditText().getText().toString().trim().matches(regphone)){
+            edPhone.setError("Số điện thoại không đúng định dạng");
+            result=0;
+        }
+        else {
             edPhone.setErrorEnabled(false);
         }
-        if(phone.equals("+84387463895")){
+        int getphone = 0;
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getUserPhone().equals(edPhone.getEditText().getText().toString().trim())){
+                getphone++;
+            }
+        }
+        if(getphone==0){
+            edPhone.setError("Số điện thoại chưa được đăng ký");
+            result = 0;
+        }
+        if(edPhone.getEditText().getText().toString().trim().equals("+84387463895")){
             result=1;
             edPhone.setErrorEnabled(false);
         }
@@ -173,6 +178,7 @@ public class SignInFragment extends Fragment {
                     User user = dataSnapshot.getValue(User.class);
                     list.add(user);
                 }
+
             }
 
             @Override
@@ -188,7 +194,6 @@ public class SignInFragment extends Fragment {
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser user = mAuth.getCurrentUser();
         updateUI(user);
-        getListUser();
     }
 
     public void updateUI(FirebaseUser currentUser) {
@@ -364,6 +369,25 @@ public class SignInFragment extends Fragment {
                         }
                     }
                 });
+    }
+
+    private void validation(){
+        edPhone.getEditText().addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                validatePhone();
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
 
 
