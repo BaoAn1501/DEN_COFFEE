@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,7 +16,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,7 +25,7 @@ import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.adapter.CartAdapter;
 import com.nhom7.den_cafe.home.UMProductFragment;
 import com.nhom7.den_cafe.model.Cart;
-import com.nhom7.den_cafe.model.User;
+import com.nhom7.den_cafe.order.ConfirmAddressFragment;
 
 import org.jetbrains.annotations.NotNull;
 

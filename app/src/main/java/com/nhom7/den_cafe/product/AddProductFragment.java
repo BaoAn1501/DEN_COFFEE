@@ -38,6 +38,7 @@ import com.google.firebase.storage.UploadTask;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.home.AMProductFragment;
 import com.nhom7.den_cafe.model.Product;
+import com.nhom7.den_cafe.model.ProductRating;
 import com.nhom7.den_cafe.model.ProductType;
 
 import org.jetbrains.annotations.NotNull;
@@ -218,6 +219,9 @@ public class AddProductFragment extends Fragment {
                             product.setProductPrice(Integer.parseInt(edPrice.getEditText().getText().toString().trim()));
                             product.setProductType(spnType.getSelectedItem().toString());
                             if(intype==1){
+                                DatabaseReference ratingRef = FirebaseDatabase.getInstance().getReference("rating");
+                                ProductRating productRating = new ProductRating(key, 0, 0, 0);
+                                ratingRef.child(key).setValue(productRating);
                                 productRef.child(key).setValue(product).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {

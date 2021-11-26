@@ -1,8 +1,8 @@
 package com.nhom7.den_cafe.product;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -14,9 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.bumptech.glide.Glide;
+import com.firebase.ui.database.ChangeEventListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -26,29 +28,34 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.nhom7.den_cafe.R;
+import com.nhom7.den_cafe.home.UMOrderFragment;
 import com.nhom7.den_cafe.home.UMProductFragment;
 import com.nhom7.den_cafe.model.Cart;
 import com.nhom7.den_cafe.model.Product;
+import com.nhom7.den_cafe.model.ProductRating;
+import com.nhom7.den_cafe.model.RateUnit;
 import com.nhom7.den_cafe.model.Wish;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 public class DetailProductFragment extends Fragment {
     View view;
     ImageView ivProduct, ivToWish, ivBack;
-    TextView tvProductName, tvProductPrice;
-    RatingBar ratingBar;
-    CardView cvAdd;
+    TextView tvProductName, tvProductPrice, tvAverage, tvCount;
+    CardView cvAdd, cvReview;
     DatabaseReference productRef, userRef;
     StorageReference imgRef;
     Product mProduct;
     String uid = FirebaseAuth.getInstance().getUid();
     List<Cart> cartList = new ArrayList<>();
-    List<Product> productList = new ArrayList<>();
     List<Wish> wishList = new ArrayList<>();
+    List<ProductRating> productRatingList = new ArrayList<>();
+    DatabaseReference ratingRef;
+
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -65,6 +72,7 @@ public class DetailProductFragment extends Fragment {
         mProduct = (Product) bundle.getSerializable("product");
         tvProductName.setText(mProduct.getProductName());
         tvProductPrice.setText(mProduct.getProductPrice()+" vnd");
+
         Glide
                 .with(this)
                 .load(mProduct.getProductImage())
@@ -73,6 +81,7 @@ public class DetailProductFragment extends Fragment {
                 .into(ivProduct);
         getCartList();
         getWishList();
+        getProductRatingList();
         ivBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,6 +106,16 @@ public class DetailProductFragment extends Fragment {
                 addtoCart();
             }
         });
+        cvReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ReviewProductFragment fragment = new ReviewProductFragment();
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("product", mProduct);
+                fragment.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_UserMain, fragment, null).commit();
+            }
+        });
     }
 
     private void init(){
@@ -104,12 +123,15 @@ public class DetailProductFragment extends Fragment {
         ivToWish = view.findViewById(R.id.ivToWishDPF);
         tvProductName = view.findViewById(R.id.tvProductNameDPF);
         tvProductPrice = view.findViewById(R.id.ivPriceDPF);
-        ratingBar = view.findViewById(R.id.ratingDPF);
+        tvAverage = view.findViewById(R.id.tvAverageRatingDPF);
+        tvCount = view.findViewById(R.id.tvCountRatingDPF);
         ivBack = view.findViewById(R.id.ivBackDPF);
         cvAdd = view.findViewById(R.id.cvToCartDPF);
+        cvReview = view.findViewById(R.id.cvReviewDPF);
         productRef = FirebaseDatabase.getInstance().getReference("list_product");
         imgRef = FirebaseStorage.getInstance().getReference("imageFolder");
         userRef = FirebaseDatabase.getInstance().getReference("list_user");
+        ratingRef = FirebaseDatabase.getInstance().getReference("rating");
     }
 
     private void loadFragment(Fragment fragment) {
@@ -207,4 +229,41 @@ public class DetailProductFragment extends Fragment {
             }
         }
     }
+
+    private void getProductRatingList(){
+        DatabaseReference productRate = FirebaseDatabase.getInstance().getReference("rating");
+        productRate.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
+                productRatingList.clear();
+                for(DataSnapshot dataSnapshot:snapshot.getChildren()){
+                    ProductRating productRating  = dataSnapshot.getValue(ProductRating.class);
+                    productRatingList.add(productRating);
+                }
+                int pos = -1;
+                for(int i=0;i<productRatingList.size();i++){
+                    if(productRatingList.get(i).getIdproduct().equals(mProduct.getProductId())){
+                        pos = i;
+                    }
+                }
+                if(pos>=0){
+                    DecimalFormat df = new DecimalFormat("#.0");
+                    tvAverage.setText(df.format(productRatingList.get(pos).getAverage())+"");
+                    tvCount.setText(productRatingList.get(pos).getCount()+"");
+                } else {
+                    tvAverage.setText(0+"");
+                    tvCount.setText(0+"");
+                }
+
+
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull @NotNull DatabaseError error) {
+
+            }
+        });
+    }
+
 }

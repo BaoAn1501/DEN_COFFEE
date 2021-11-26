@@ -95,23 +95,27 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/logout_UserInfo"
-            android:layout_marginBottom="80dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/Brown"
             app:cardCornerRadius="30dp"
             app:cardElevation="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="match_parent"
-            android:layout_height="55dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
             <TextView
-                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Đăng xuất"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

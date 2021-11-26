@@ -8,6 +8,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -22,6 +23,7 @@ import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.adapter.ProductCategoryAdapter;
 import com.nhom7.den_cafe.model.Product;
 import com.nhom7.den_cafe.product.CartFragment;
+import com.nhom7.den_cafe.product.SearchFragment;
 import com.nhom7.den_cafe.product.WishFragment;
 
 import org.jetbrains.annotations.NotNull;
@@ -35,6 +37,7 @@ public class UMProductFragment extends Fragment {
     ProductCategoryAdapter adapter;
     List<Product> list = new ArrayList<>();
     ImageView ivToCart, ivToWish;
+    CardView cvSearch;
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -66,6 +69,14 @@ public class UMProductFragment extends Fragment {
                 loadFragment(new WishFragment());
             }
         });
+        cvSearch = view.findViewById(R.id.cvSearchUMPF);
+        cvSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(new SearchFragment());
+            }
+        });
+
     }
 
     private void addToRealtimeDatabase() {

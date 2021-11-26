@@ -15,15 +15,31 @@
             android:gravity="center_vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSearchUMPF"
+                app:cardBackgroundColor="@color/Brown"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Tìm món..."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </androidx.cardview.widget.CardView>
             <ImageView
                 android:id="@+id/toWish"
                 android:layout_toLeftOf="@id/toCart"
                 android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
                 android:src="@drawable/ic_baseline_favorite_36_red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <ImageView
                 android:id="@+id/toCart"
+                android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
                 android:src="@drawable/ic_baseline_shopping_basket_24_red"

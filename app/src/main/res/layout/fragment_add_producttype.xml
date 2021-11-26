@@ -40,13 +40,12 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvAddAPTF"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="50dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
         android:backgroundTint="@color/Brown"
-        android:elevation="16dp"
+        app:cardElevation="8dp"
         app:cardCornerRadius="30dp">
         <TextView
             android:id="@+id/tvAddAPTF"

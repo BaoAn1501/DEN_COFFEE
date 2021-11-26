@@ -1,4 +1,4 @@
-package com.nhom7.den_cafe.product;
+package com.nhom7.den_cafe.order;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,7 +24,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.nhom7.den_cafe.R;
-import com.nhom7.den_cafe.adapter.CartAdapter;
 import com.nhom7.den_cafe.adapter.CartOrderAdapter;
 import com.nhom7.den_cafe.home.UMProductFragment;
 import com.nhom7.den_cafe.model.Cart;
@@ -155,6 +154,7 @@ public class DetailOrderFragment extends Fragment {
                     public void onSuccess(Void unused) {
                         orderdetailRef.child(key).child("cart").setValue(list);
                         cartRef.removeValue();
+                        loadFragment(new UMProductFragment());
                     }
                 });
             }

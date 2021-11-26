@@ -35,10 +35,10 @@ public class AdminMainActivity extends AppCompatActivity {
             public Unit invoke(MeowBottomNavigation.Model model) {
                 switch (model.getId()){
                     case 1:
-                        replace(new AMOrderFragment());
+                        replace(new AMAnalysisFragment());
                         break;
                     case 2:
-                        replace(new AMAnalysisFragment());
+                        replace(new AMOrderFragment());
                         break;
                     case 3:
                         replace(new AMProductFragment());

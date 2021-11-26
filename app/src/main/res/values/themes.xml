@@ -20,10 +20,6 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="dialog_alert" parent="Theme.AppCompat.Dialog.Alert">
-        <!-- màu tiêu đề-->
-        <item name="android:textColorPrimary">@color/Brown</item>
-        <!--màu chữ yes no-->
-        <item name="colorOnPrimary">@color/Brown</item>
         <!--màu nền hộp thoại-->
         <item name="android:colorBackground">@color/White</item>
         <!--cài góc bo cho hộp thoại dialog-->

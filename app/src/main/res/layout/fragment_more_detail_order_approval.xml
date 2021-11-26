@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentTop="true"
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardElevation="16dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Chi Tiết Đơn Hàng"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/ivExitMDOF"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_clear_24_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ImageView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:padding="5dp"
+        android:layout_below="@id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Ngày:" />
+
+        <TextView
+            android:id="@+id/tvDateMDOF"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:padding="5dp"
+        android:layout_below="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Người mua:" />
+
+        <TextView
+            android:id="@+id/tvNameMDOF"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:padding="5dp"
+        android:layout_below="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Số điện thoại:" />
+
+        <TextView
+            android:id="@+id/tvPhoneMDOF"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln4"
+        android:padding="5dp"
+        android:layout_below="@+id/ln3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Địa chỉ:" />
+
+        <TextView
+            android:id="@+id/tvAddressMDOF"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tb"
+        app:cardElevation="2dp"
+        android:layout_below="@id/ln4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Món"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Số lượng"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Đơn giá"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Thành tiền"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:textSize="14sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvMDOF"
+        android:layout_below="@id/tb"
+        android:layout_above="@id/ln123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginBottom="70dp"
+        android:id="@+id/ln123"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tổng tiền:" />
+
+        <TextView
+            android:id="@+id/tvTotalMDOF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/Red"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

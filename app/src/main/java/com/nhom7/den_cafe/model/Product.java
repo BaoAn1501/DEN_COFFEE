@@ -10,6 +10,14 @@ public class Product implements Serializable {
     private String productType;
     private float rating;
 
+    public Product(String productId, String productName, int productPrice, String productImage, String productType) {
+        this.productId = productId;
+        this.productName = productName;
+        this.productPrice = productPrice;
+        this.productImage = productImage;
+        this.productType = productType;
+    }
+
     public Product(String productId, String productName, int productPrice, String productImage, String productType, float rating) {
         this.productId = productId;
         this.productName = productName;

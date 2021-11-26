@@ -142,12 +142,14 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
 
     private void deleteProduct(Product product) {
         DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference("list_product");
+        DatabaseReference ratingRef = FirebaseDatabase.getInstance().getReference("rating");
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
         StorageReference storageRef = firebaseStorage.getReferenceFromUrl(product.getProductImage());
         databaseRef.child(product.getProductId()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
                 storageRef.delete();
+                ratingRef.child(product.getProductId()).removeValue();
                 Toast.makeText(context, "Đã xoá sản phẩm", Toast.LENGTH_SHORT).show();
             }
         }).addOnFailureListener(new OnFailureListener() {

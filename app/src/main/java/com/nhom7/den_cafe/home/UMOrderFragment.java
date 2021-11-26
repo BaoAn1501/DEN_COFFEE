@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -51,6 +52,7 @@ public class UMOrderFragment extends Fragment {
     }
 
     private void getListFromFirebase() {
+        String uid = FirebaseAuth.getInstance().getUid();
         DatabaseReference orderStateRef = FirebaseDatabase.getInstance().getReference("list_order_state");
         orderStateRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -58,7 +60,9 @@ public class UMOrderFragment extends Fragment {
                 list.clear();
                 for(DataSnapshot dataSnapshot:snapshot.getChildren()){
                     OrderState state = dataSnapshot.getValue(OrderState.class);
-                    list.add(state);
+                    if(state.getUseruid().equals(uid) && state.isState()==false){
+                        list.add(state);
+                    }
                 }
                 adapter.notifyDataSetChanged();
             }

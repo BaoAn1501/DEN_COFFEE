@@ -50,8 +50,8 @@
         <ImageView
             android:id="@+id/ivToWishDPF"
             android:src="@drawable/ic_baseline_favorite_border_24_red"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_margin="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -60,11 +60,12 @@
             android:id="@+id/tvProductNameDPF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
             android:text="Product Name"
             android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -78,41 +79,88 @@
             android:layout_marginBottom="10dp"
             android:text="30000 vnd"
             android:textColor="#ff00"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@id/ratingDPF"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvProductNameDPF" />
-
-        <RatingBar
-            android:id="@+id/ratingDPF"
-            android:layout_margin="10dp"
+            app:layout_constraintTop_toBottomOf="@id/tvProductNameDPF"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvReviewDPF"
+            app:layout_constraintTop_toBottomOf="@id/ivPriceDPF"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="@id/cvToCartDPF"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/Brown"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/ivPriceDPF" />
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvAverageRatingDPF"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tvAverageRatingDPF"
+                    android:src="@drawable/ic_baseline_star_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tvCountRatingDPF"
+                    android:text="1"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Đánh giá"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:layout_toRightOf="@id/tvCountRatingDPF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvToCartDPF"
-            android:layout_width="300dp"
-            android:layout_height="55dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_marginBottom="70dp"
             android:backgroundTint="@color/Brown"
             app:cardCornerRadius="30dp"
+            app:cardElevation="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/ratingDPF">
+            app:layout_constraintStart_toStartOf="parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="18sp"
                 android:gravity="center_horizontal"
                 android:text="Thêm vào giỏ"
                 android:textColor="@color/white"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
