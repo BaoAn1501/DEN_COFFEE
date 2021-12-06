@@ -17,15 +17,20 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.type.DateTime;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.adapter.OrderApprovedAdapter;
 import com.nhom7.den_cafe.model.OrderDetail;
 import com.nhom7.den_cafe.model.OrderState;
+import com.nhom7.den_cafe.model.ProductCount;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
@@ -84,6 +89,7 @@ public class AMAllTimeFragment extends Fragment {
     }
 
     private void getListState(){
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         DatabaseReference orderStateRef = FirebaseDatabase.getInstance().getReference("list_order_state");
         orderStateRef.addValueEventListener(new ValueEventListener() {
             @Override

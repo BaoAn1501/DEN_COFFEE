@@ -1,49 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/app_bar_layout"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent">
-    <androidx.cardview.widget.CardView
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="200dp"
-        app:cardElevation="8dp"
-        android:layout_width="200dp"
-        android:layout_height="200dp">
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/tvTotalAMMF"
-                android:textSize="24sp"
-                android:textColor="@color/Black"
-                android:textStyle="bold"
-                android:text="0"
+            <androidx.cardview.widget.CardView
                 android:layout_centerInParent="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <TextView
-                android:id="@+id/tvvnd"
-                android:textSize="20sp"
-                android:textColor="@color/Green"
-                android:layout_below="@id/tvTotalAMMF"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
-                android:text="vnd"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="200dp"
+                app:cardElevation="8dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvTotalAMMF"
+                        android:textSize="24sp"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold"
+                        android:text="0"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/tvvnd"
+                        android:textSize="20sp"
+                        android:textColor="@color/Green"
+                        android:layout_below="@id/tvTotalAMMF"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="vnd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/toChartAMMF"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_baseline_assessment_36_red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-    <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/barChartAMMF"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="68dp"
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+</com.google.android.material.appbar.AppBarLayout>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvAMMF"
+        android:paddingBottom="48dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
-</LinearLayout>
+        android:layout_height="match_parent"/>
+</androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

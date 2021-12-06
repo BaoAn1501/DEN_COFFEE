@@ -80,6 +80,7 @@ public class DetailProductFragment extends Fragment {
                 .placeholder(R.drawable.logoicon)
                 .into(ivProduct);
         getCartList();
+        // nếu mà sản phẩm nằm trong wishlist thì hiển thị tim,
         getWishList();
         getProductRatingList();
         ivBack.setOnClickListener(new View.OnClickListener() {
@@ -160,7 +161,7 @@ public class DetailProductFragment extends Fragment {
     }
 
     private void getWishList() {
-        DatabaseReference wishRef = userRef.child(uid).child("wish");
+        DatabaseReference wishRef = userRef.child(uid).child("wish"); // đến list wish trong database
         wishRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
@@ -204,9 +205,8 @@ public class DetailProductFragment extends Fragment {
         DatabaseReference cartRef = userRef.child(uid).child("cart");
         if(cartList.size()==0){
             Toast.makeText(getActivity(), "new item / null", Toast.LENGTH_SHORT).show();
-            String key = cartRef.push().getKey();
-            Cart cart = new Cart(key, mProduct.getProductName(), mProduct.getProductPrice(), 1, mProduct.getProductImage());
-            cartRef.child(key).setValue(cart);
+            Cart cart = new Cart(mProduct.getProductId(), mProduct.getProductName(), mProduct.getProductPrice(), 1, mProduct.getProductImage());
+            cartRef.child(mProduct.getProductId()).setValue(cart);
             loadFragment(new CartFragment());
         } else {
             boolean exist = false;
@@ -222,9 +222,8 @@ public class DetailProductFragment extends Fragment {
                 cartRef.child(cartList.get(pos).getCartId()).setValue(cart);
                 loadFragment(new CartFragment());
             } else {
-                String key = cartRef.push().getKey();
-                Cart cart = new Cart(key, mProduct.getProductName(), mProduct.getProductPrice(), 1, mProduct.getProductImage());
-                cartRef.child(key).setValue(cart);
+                Cart cart = new Cart(mProduct.getProductId(), mProduct.getProductName(), mProduct.getProductPrice(), 1, mProduct.getProductImage());
+                cartRef.child(mProduct.getProductId()).setValue(cart);
                 loadFragment(new CartFragment());
             }
         }

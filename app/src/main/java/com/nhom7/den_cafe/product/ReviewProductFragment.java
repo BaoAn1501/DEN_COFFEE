@@ -173,23 +173,21 @@ public class ReviewProductFragment extends Fragment {
             @SuppressLint("ResourceAsColor")
             @Override
             public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
-                if(snapshot.exists()){
                     rateUnitList.clear();
                     for(DataSnapshot dataSnapshot:snapshot.getChildren()){
                         RateUnit rateUnit = dataSnapshot.getValue(RateUnit.class);
                         rateUnitList.add(rateUnit);
                     }
                     adapter.notifyDataSetChanged();
-                }
-                int t = 0;
+                boolean t = false;
                 for(int i=0;i<rateUnitList.size();i++){
                     if(rateUnitList.get(i).getUidRating().equals(uid)) {
-                        t = 1;
+                        t = true;
                     } else {
-                        t = 0;
+
                     }
                 }
-                if(t==1) {
+                if(t==true) {
                     cvReview.setClickable(false);
                     cvReview.setBackgroundColor(R.color.Gray);
                 } else {

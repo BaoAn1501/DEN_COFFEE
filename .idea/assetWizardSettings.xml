@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$/Desktop/Screen Shot 2021-11-18 at 3.58.26 PM.png" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../../image/logoicon.jpg" />
                                                 <entry key="scalingPercent" value="69" />
                                               </map>
                                             </option>
@@ -113,8 +113,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="outputName" value="vnphone" />
+                                      <entry key="outputName" value="app_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -308,7 +307,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/star/baseline_star_24.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material/icons/materialicons/assessment/baseline_assessment_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -318,8 +317,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="d9c342" />
-                            <entry key="outputName" value="ic_baseline_star_24" />
+                            <entry key="color" value="9b0c0c" />
+                            <entry key="outputName" value="ic_baseline_assessment_36_red" />
                           </map>
                         </option>
                       </PersistentState>

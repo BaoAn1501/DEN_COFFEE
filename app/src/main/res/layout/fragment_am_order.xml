@@ -17,8 +17,9 @@
             android:gravity="center_vertical">
             <TextView
                 android:text="Danh Sách Đơn Hàng"
-                android:textColor="@color/black"
-                android:textSize="18sp"
+                android:textColor="@color/Brown"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:layout_centerHorizontal="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>

@@ -16,8 +16,14 @@ import androidx.fragment.app.Fragment;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.login.LoginActivity;
+import com.nhom7.den_cafe.model.User;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -30,6 +36,8 @@ public class AMPersonFragment extends Fragment {
     CardView cvLogout;
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     private FirebaseUser currentUser = mAuth.getCurrentUser();
+    String uid = currentUser.getUid();
+    List<User> userList = new ArrayList<>();
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -51,6 +59,8 @@ public class AMPersonFragment extends Fragment {
                 }
             }
         });
+        DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
+        userRef.child(uid).setValue(new User(uid, "DEN CAFE", currentUser.getPhoneNumber(), ""));
     }
 
     private void init(){

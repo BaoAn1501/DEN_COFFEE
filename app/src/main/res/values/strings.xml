@@ -2,4 +2,5 @@
     <string name="app_name">den_cafe</string>
     <string name="facebook_app_id">3195078527426617</string>
     <string name="fb_login_protocol_scheme">fb3195078527426617</string>
+    <string name="CHANNEL_ID">1000</string>
 </resources>

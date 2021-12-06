@@ -31,6 +31,27 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSetAvatar_UserInfo"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/Brown"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="8dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/ivProfile_UserInfo"
+            app:layout_constraintStart_toEndOf="@+id/ivProfile_UserInfo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cài ảnh"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <LinearLayout
         android:orientation="vertical"

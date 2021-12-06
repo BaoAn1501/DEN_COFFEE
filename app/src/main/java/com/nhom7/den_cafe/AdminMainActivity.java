@@ -7,17 +7,24 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.nhom7.den_cafe.home.AMPersonFragment;
 import com.nhom7.den_cafe.home.AMChatFragment;
 import com.nhom7.den_cafe.home.AMOrderFragment;
 import com.nhom7.den_cafe.home.AMProductFragment;
 import com.nhom7.den_cafe.home.AMAnalysisFragment;
 
+import java.util.HashMap;
+
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 
 public class AdminMainActivity extends AppCompatActivity {
     private MeowBottomNavigation bnv_Main;
+    String uid = FirebaseAuth.getInstance().getUid();
+    int fromac = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,8 +35,14 @@ public class AdminMainActivity extends AppCompatActivity {
         bnv_Main.add(new MeowBottomNavigation.Model(3,R.drawable.ic_baseline_local_library_24));
         bnv_Main.add(new MeowBottomNavigation.Model(4,R.drawable.ic_baseline_chat_24));
         bnv_Main.add(new MeowBottomNavigation.Model(5,R.drawable.ic_baseline_person_24_red));
-        bnv_Main.show(3,true);
-        replace(new AMProductFragment());
+        fromac = getIntent().getIntExtra("fromac", 0);
+        if(fromac==0){
+            bnv_Main.show(3,true);
+            replace(new AMProductFragment());
+        } else {
+            bnv_Main.show(4, true);
+            replace(new AMChatFragment());
+        }
         bnv_Main.setOnClickMenuListener(new Function1<MeowBottomNavigation.Model, Unit>() {
             @Override
             public Unit invoke(MeowBottomNavigation.Model model) {
@@ -59,5 +72,24 @@ public class AdminMainActivity extends AppCompatActivity {
         FragmentTransaction transacion = getSupportFragmentManager().beginTransaction();
         transacion.replace(R.id.frame_AdminMain,fragment);
         transacion.commit();
+    }
+
+    private void status(boolean status){
+        DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("status", status);
+        userRef.child(uid).updateChildren(hashMap);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        status(true);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        status(false);
     }
 }

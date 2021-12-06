@@ -50,6 +50,7 @@ public class ProductCategoryAdapter extends RecyclerView.Adapter<ProductCategory
 
     @Override
     public void onBindViewHolder(@NonNull @NotNull ProductCategoryAdapter.ViewHolder holder, int position) {
+        // hiển thị sản phẩm
         Product product = list.get(position);
         holder.tvName.setText(product.getProductName());
         holder.tvPrice.setText(product.getProductPrice()+" vnd");
@@ -70,6 +71,7 @@ public class ProductCategoryAdapter extends RecyclerView.Adapter<ProductCategory
                 ((FragmentActivity)context).getSupportFragmentManager().beginTransaction().replace(R.id.frame_UserMain, fragment, null).commit();
             }
         });
+        // thả tim
         String uid = FirebaseAuth.getInstance().getUid();
         DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
         DatabaseReference wishRef = userRef.child(uid).child("wish");

@@ -14,6 +14,7 @@
             android:layout_height="match_parent">
             <ImageView
                 android:id="@+id/ivBackSF"
+                android:layout_marginStart="20dp"
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_baseline_keyboard_backspace_24"
                 android:layout_width="wrap_content"
