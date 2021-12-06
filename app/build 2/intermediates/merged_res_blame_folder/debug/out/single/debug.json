@@ -1,0 +1,490 @@
+[
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_bottom_sheet_choose.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/bottom_sheet_choose.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_border_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_border_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_chat_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_chat_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_clear_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_um_order.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_um_order.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_admin_main.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_admin_main.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_backgrounda.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/backgrounda.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_cart_order.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_cart_order.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_product_analysis_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_product_analysis_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_order_state.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_order_state.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_36.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_36.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_detail_order.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_detail_order.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_vnphonecode.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/vnphonecode.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_review_unit.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_review_unit.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_googleicon.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/googleicon.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_wish.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_wish.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_bg_home.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/bg_home.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_am_order.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_am_order.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_cafesplash.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/cafesplash.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_um_person.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_um_person.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24_white.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_add_24_white.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_cart.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_keyboard_backspace_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_signin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_signin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_otpactivity.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_otpactivity.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_backgroundc.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/backgroundc.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_list_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_list_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_email_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_person_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_receipt_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_receipt_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_clear_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_call_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_call_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/anim_splash_background.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/anim/splash_background.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_check_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_check_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_review_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_review_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_tabs_layout.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/tabs_layout.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_detail_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_detail_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_backgrounde.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/backgrounde.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_shopping_basket_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_shopping_basket_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_background.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/background.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_logoicon.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/logoicon.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_thismonth_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_thismonth_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_alltime_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_alltime_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_user_main.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_user_main.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_analytics_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_analytics_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_star_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/anim_splash_text.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/anim/splash_text.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_shopping_basket_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_shopping_basket_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_person_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_cart.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_cart.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_order_approval_state.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_order_approval_state.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_add_24red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_search.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_backgroundd.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/backgroundd.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_um_chat.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_um_chat.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_priority_high_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_priority_high_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_local_library_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_local_library_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_add_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_outline_remove_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_outline_remove_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_signup.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_receipt_long_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_receipt_long_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_faceicon.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/faceicon.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_list_bill.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_list_bill.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_revenue_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_revenue_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_today_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_today_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_camera_alt_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_36_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_36_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_productamount_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_productamount_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_add_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_add_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_um_analysis.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_um_analysis.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_confirm_address.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_confirm_address.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_am_chat.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_am_chat.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_call_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_call_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_bgcafe.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/bgcafe.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_favorite_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_favorite_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_am_person.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_am_person.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_more_detail_order_approval.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_more_detail_order_approval.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_um_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_um_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_dialog_review.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/dialog_review.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_am_product.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_am_product.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_keyboard_backspace_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_outline_remove_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_outline_remove_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_list_producttype.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_list_producttype.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_productraing_analysis_admin.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_productraing_analysis_admin.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_receipt_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_receipt_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_edit_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_edit_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_am_analysis.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_am_analysis.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_tab_selector.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/tab_selector.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_email_24_red.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_email_24_red.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_backgroundb.jpg.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/backgroundb.jpg"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_activity_otpsign_in.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/activity_otpsign_in.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_wish.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_wish.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_type.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_type.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_button_effect.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/button_effect.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_circle_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/anim_splash_icon.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/anim/splash_icon.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_fragment_add_producttype.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/fragment_add_producttype.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/layout_item_product_umain.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/layout/item_product_umain.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/drawable_ic_baseline_remove_24.xml.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/drawable/ic_baseline_remove_24.xml"
+    },
+    {
+        "merged": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

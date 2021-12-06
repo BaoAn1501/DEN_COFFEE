@@ -1,0 +1,1061 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:2:1-107:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c3813f5ec62c23590b1cbf953921e2cb/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/62edcafd63eac887aad2060eae863edb/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2a6d1a1947c1d28ae08911cf7e7474b9/jetified-meow-bottom-navigation-1.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b21dddd2e90e390c6f1e13c656dad7ba/jetified-facebook-android-sdk-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3d218cbd6285626f9f5ab3eca5a2866/jetified-facebook-login-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a15a9e84055f955db6f4b26b7577dbd1/jetified-facebook-share-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a0533202ced304b7f05544fe0c07e095/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/10bb94f90482799077261ce14075a1fd/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/79d0504c9d2b816ec6938c6ddb7fb6a1/jetified-firebase-ui-firestore-8.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128125f60a2953e09ab2f10c396ad9fc/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c2fecb2d17d979f076bcb97c6874371a/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3c6fd7d3f652886b315d9500b5f66da/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:15:1-38:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a41982cacf05b8157f79a7338b6926f/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ab9fc2ca5a798da938686ea0987d4138/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/249f1d0e08c15b4d5ef904210af5f442/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fddd4169f9bf3145612f7ce3301e493d/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6d9316bd2d3a82ed82f5bb459b561697/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b2658cd909fe664014614e7dfd2d3d5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/92125ddb81e4dd399614238c2ced86a1/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5df2b531c616f039efd747d89a49e3fb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b948b1041b1de0740cd56826e988e66c/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0271bdea88e33feea84fd2d6d107feed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9e9f4ab4d967b2fbcb6dca0d0df64738/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c1b2eabbcd154b9a636f8e0b4a56d0ae/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7ae907a7287448e213911d0f9c97c4d8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fa7861852fafea85198655a78d92f510/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8eaee5d7550ba78450cbb2fc2ad118af/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6e44ade6af971ed8052a59c8d078eac2/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2c9dc50f29b15d89310f58e20557ed19/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4f27d4f5b8ef8f65f6beda0ea592c06e/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/24d2dce2bc7584fb6c8775797a54d5c1/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/137287753463eef9855ee684fcc00c2c/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d44a8c1e6bc9672679ad55dea4725cd3/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/500c5557c6f7cc86ee291a9b50d48ddb/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7f758092e014ca647a63d5d72a6cd601/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6c8ae8f8f594b90c7427f03ba22f4630/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a6c683d2c12c423086de7459955caa97/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eebdcbc2bc452937da28897c49436cbe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a1d8fce9e694af9033052415fadae2dd/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/42b7977e2ff15033c8e65d6468a68bf3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0802f3819f0a0513dc0cda5e3b612fda/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e22d56eb78a2281fdd1398f6670f77d/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1d4800ca6f15e6b86861f5d972384724/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/262010648332ac41590be2822b626da1/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15dd98dc328fb7d7acbe46c3d2148e07/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bba9fd924ae5ff4a227242b04f08ccd0/jetified-facebook-places-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b71da7706d072fa8c355127319904152/jetified-facebook-applinks-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f85ab7f80448957ffabdcff1c01f5755/jetified-facebook-messenger-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/06abf01896c89a8e377e37481a34387e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1dcd00655aa6dbad41fceef12f2c8ec7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/77aa084baa4e0b192bedb2f818a8c4ba/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/75574498c565ffc23fd4cf04363e78cd/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cd94cbbd6387ae90154bbd2692d35756/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/88891779ff609511ade609de6da23ebc/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cc45a1ec9962d9e8b46b86a67990a9ec/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128f2dfb33eb6c25ff8f5818992c95e5/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b4f83e7f0b97212b5efdf067e3fee419/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d2241f9d59c2ba751bf09ea6da164fb2/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f0acc2f5ce20063221123d5dd7c0a082/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/3f68e6dca3b12e1263a29e6c62377a39/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4a83045d55c8c45061541224ef410bd1/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/94d57933acabbb5fe178a5f77cc99326/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5ec4f0d95d744b84fe65cf233b95e68a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bc848f4479c85d81728ab7e148b76fb6/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f8737858ad3e3738e902ef6ab5846205/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4c66bcf333026d29cb04becf6e8143d3/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1c2620ed8afb11662b6c94ff22011612/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/89d3e0046bdb5fb05f053f36ff4437b8/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d3912e590b2867a825ac2567d2795909/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/53a49541d1bd00ad6d76da44a0ee35e3/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/dfd2ef3118ab22cafabea47a9309f687/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f977d8b5cdb2777e863a118b766a9c3e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/48e189e553abb54f424fff616c7dc582/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/247177494534e4d91632b39146818674/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/656e13537e0de86a8a57c1cb5f755ccc/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7aae92c28b2be91110890bdeba79710f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9dcc2519d4f17da846df2829aa47eee2/jetified-grpc-android-1.41.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f78d36421653f5a133ead51e12ca7a9d/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/10bb94f90482799077261ce14075a1fd/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/10bb94f90482799077261ce14075a1fd/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/79d0504c9d2b816ec6938c6ddb7fb6a1/jetified-firebase-ui-firestore-8.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/79d0504c9d2b816ec6938c6ddb7fb6a1/jetified-firebase-ui-firestore-8.0.0/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:11:5-57:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:13:5-105:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c3813f5ec62c23590b1cbf953921e2cb/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c3813f5ec62c23590b1cbf953921e2cb/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/62edcafd63eac887aad2060eae863edb/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/62edcafd63eac887aad2060eae863edb/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b21dddd2e90e390c6f1e13c656dad7ba/jetified-facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b21dddd2e90e390c6f1e13c656dad7ba/jetified-facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3d218cbd6285626f9f5ab3eca5a2866/jetified-facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3d218cbd6285626f9f5ab3eca5a2866/jetified-facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a15a9e84055f955db6f4b26b7577dbd1/jetified-facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a15a9e84055f955db6f4b26b7577dbd1/jetified-facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128125f60a2953e09ab2f10c396ad9fc/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128125f60a2953e09ab2f10c396ad9fc/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3c6fd7d3f652886b315d9500b5f66da/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3c6fd7d3f652886b315d9500b5f66da/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:28:5-36:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a41982cacf05b8157f79a7338b6926f/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a41982cacf05b8157f79a7338b6926f/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b948b1041b1de0740cd56826e988e66c/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b948b1041b1de0740cd56826e988e66c/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0271bdea88e33feea84fd2d6d107feed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0271bdea88e33feea84fd2d6d107feed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c1b2eabbcd154b9a636f8e0b4a56d0ae/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c1b2eabbcd154b9a636f8e0b4a56d0ae/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8eaee5d7550ba78450cbb2fc2ad118af/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8eaee5d7550ba78450cbb2fc2ad118af/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2c9dc50f29b15d89310f58e20557ed19/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2c9dc50f29b15d89310f58e20557ed19/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4f27d4f5b8ef8f65f6beda0ea592c06e/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4f27d4f5b8ef8f65f6beda0ea592c06e/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/24d2dce2bc7584fb6c8775797a54d5c1/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/24d2dce2bc7584fb6c8775797a54d5c1/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/137287753463eef9855ee684fcc00c2c/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/137287753463eef9855ee684fcc00c2c/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/500c5557c6f7cc86ee291a9b50d48ddb/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/500c5557c6f7cc86ee291a9b50d48ddb/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7f758092e014ca647a63d5d72a6cd601/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7f758092e014ca647a63d5d72a6cd601/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bba9fd924ae5ff4a227242b04f08ccd0/jetified-facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bba9fd924ae5ff4a227242b04f08ccd0/jetified-facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b71da7706d072fa8c355127319904152/jetified-facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b71da7706d072fa8c355127319904152/jetified-facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f85ab7f80448957ffabdcff1c01f5755/jetified-facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f85ab7f80448957ffabdcff1c01f5755/jetified-facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bc848f4479c85d81728ab7e148b76fb6/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bc848f4479c85d81728ab7e148b76fb6/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/89d3e0046bdb5fb05f053f36ff4437b8/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/89d3e0046bdb5fb05f053f36ff4437b8/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:17:9-46
+activity#com.nhom7.den_cafe.login.OTPSignInActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:18:9-19:20
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:18:19-58
+activity#com.nhom7.den_cafe.login.OTPActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:20:19-52
+activity#com.nhom7.den_cafe.UserMainActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:21:9-23:20
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:21:19-51
+activity#com.nhom7.den_cafe.login.LoginActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:24:9-57
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:24:19-54
+activity#com.nhom7.den_cafe.SplashActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:25:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.nhom7.den_cafe.AdminMainActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:32:9-34:20
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:32:19-52
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:36:9-39:45
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:17:9-19:63
+	tools:replace
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:39:13-42
+	android:value
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:38:13-52
+		REJECTED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:19:13-60
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:37:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:41:9-44:48
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:81:9-85:48
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:44:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:85:13-45
+	android:configChanges
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:43:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:42:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:45:9-56:20
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:86:9-98:20
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:47:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:89:13-45
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:46:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:48:13-55:29
+action#android.intent.action.VIEW
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:17-78
+	android:name
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:27-75
+data
+ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:17-75
+	android:scheme
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:23-72
+uses-sdk
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c3813f5ec62c23590b1cbf953921e2cb/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c3813f5ec62c23590b1cbf953921e2cb/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/62edcafd63eac887aad2060eae863edb/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/62edcafd63eac887aad2060eae863edb/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2a6d1a1947c1d28ae08911cf7e7474b9/jetified-meow-bottom-navigation-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2a6d1a1947c1d28ae08911cf7e7474b9/jetified-meow-bottom-navigation-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b21dddd2e90e390c6f1e13c656dad7ba/jetified-facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b21dddd2e90e390c6f1e13c656dad7ba/jetified-facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3d218cbd6285626f9f5ab3eca5a2866/jetified-facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3d218cbd6285626f9f5ab3eca5a2866/jetified-facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a15a9e84055f955db6f4b26b7577dbd1/jetified-facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a15a9e84055f955db6f4b26b7577dbd1/jetified-facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a0533202ced304b7f05544fe0c07e095/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a0533202ced304b7f05544fe0c07e095/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/10bb94f90482799077261ce14075a1fd/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/10bb94f90482799077261ce14075a1fd/jetified-firebase-ui-database-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/79d0504c9d2b816ec6938c6ddb7fb6a1/jetified-firebase-ui-firestore-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/79d0504c9d2b816ec6938c6ddb7fb6a1/jetified-firebase-ui-firestore-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128125f60a2953e09ab2f10c396ad9fc/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128125f60a2953e09ab2f10c396ad9fc/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c2fecb2d17d979f076bcb97c6874371a/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c2fecb2d17d979f076bcb97c6874371a/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3c6fd7d3f652886b315d9500b5f66da/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a3c6fd7d3f652886b315d9500b5f66da/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:19:5-21:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a41982cacf05b8157f79a7338b6926f/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a41982cacf05b8157f79a7338b6926f/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ab9fc2ca5a798da938686ea0987d4138/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ab9fc2ca5a798da938686ea0987d4138/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/249f1d0e08c15b4d5ef904210af5f442/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/249f1d0e08c15b4d5ef904210af5f442/jetified-paging-rxjava3-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fddd4169f9bf3145612f7ce3301e493d/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fddd4169f9bf3145612f7ce3301e493d/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6d9316bd2d3a82ed82f5bb459b561697/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6d9316bd2d3a82ed82f5bb459b561697/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b2658cd909fe664014614e7dfd2d3d5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b2658cd909fe664014614e7dfd2d3d5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/92125ddb81e4dd399614238c2ced86a1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/92125ddb81e4dd399614238c2ced86a1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5df2b531c616f039efd747d89a49e3fb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5df2b531c616f039efd747d89a49e3fb/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b948b1041b1de0740cd56826e988e66c/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b948b1041b1de0740cd56826e988e66c/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0271bdea88e33feea84fd2d6d107feed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0271bdea88e33feea84fd2d6d107feed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9e9f4ab4d967b2fbcb6dca0d0df64738/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9e9f4ab4d967b2fbcb6dca0d0df64738/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c1b2eabbcd154b9a636f8e0b4a56d0ae/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c1b2eabbcd154b9a636f8e0b4a56d0ae/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7ae907a7287448e213911d0f9c97c4d8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7ae907a7287448e213911d0f9c97c4d8/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fa7861852fafea85198655a78d92f510/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fa7861852fafea85198655a78d92f510/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8eaee5d7550ba78450cbb2fc2ad118af/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8eaee5d7550ba78450cbb2fc2ad118af/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6e44ade6af971ed8052a59c8d078eac2/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6e44ade6af971ed8052a59c8d078eac2/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2c9dc50f29b15d89310f58e20557ed19/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2c9dc50f29b15d89310f58e20557ed19/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4f27d4f5b8ef8f65f6beda0ea592c06e/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4f27d4f5b8ef8f65f6beda0ea592c06e/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/24d2dce2bc7584fb6c8775797a54d5c1/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/24d2dce2bc7584fb6c8775797a54d5c1/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/137287753463eef9855ee684fcc00c2c/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/137287753463eef9855ee684fcc00c2c/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d44a8c1e6bc9672679ad55dea4725cd3/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d44a8c1e6bc9672679ad55dea4725cd3/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/500c5557c6f7cc86ee291a9b50d48ddb/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/500c5557c6f7cc86ee291a9b50d48ddb/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7f758092e014ca647a63d5d72a6cd601/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7f758092e014ca647a63d5d72a6cd601/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/937b857fd8e0d8dc0d874a7c73f09941/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6c8ae8f8f594b90c7427f03ba22f4630/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/6c8ae8f8f594b90c7427f03ba22f4630/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a6c683d2c12c423086de7459955caa97/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a6c683d2c12c423086de7459955caa97/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eebdcbc2bc452937da28897c49436cbe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eebdcbc2bc452937da28897c49436cbe/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a1d8fce9e694af9033052415fadae2dd/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a1d8fce9e694af9033052415fadae2dd/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/42b7977e2ff15033c8e65d6468a68bf3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/42b7977e2ff15033c8e65d6468a68bf3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0802f3819f0a0513dc0cda5e3b612fda/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0802f3819f0a0513dc0cda5e3b612fda/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e22d56eb78a2281fdd1398f6670f77d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e22d56eb78a2281fdd1398f6670f77d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1d4800ca6f15e6b86861f5d972384724/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1d4800ca6f15e6b86861f5d972384724/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/262010648332ac41590be2822b626da1/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/262010648332ac41590be2822b626da1/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15dd98dc328fb7d7acbe46c3d2148e07/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15dd98dc328fb7d7acbe46c3d2148e07/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bba9fd924ae5ff4a227242b04f08ccd0/jetified-facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bba9fd924ae5ff4a227242b04f08ccd0/jetified-facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b71da7706d072fa8c355127319904152/jetified-facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b71da7706d072fa8c355127319904152/jetified-facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f85ab7f80448957ffabdcff1c01f5755/jetified-facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f85ab7f80448957ffabdcff1c01f5755/jetified-facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/06abf01896c89a8e377e37481a34387e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/06abf01896c89a8e377e37481a34387e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1dcd00655aa6dbad41fceef12f2c8ec7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1dcd00655aa6dbad41fceef12f2c8ec7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/77aa084baa4e0b192bedb2f818a8c4ba/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/77aa084baa4e0b192bedb2f818a8c4ba/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/75574498c565ffc23fd4cf04363e78cd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/75574498c565ffc23fd4cf04363e78cd/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cd94cbbd6387ae90154bbd2692d35756/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cd94cbbd6387ae90154bbd2692d35756/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/88891779ff609511ade609de6da23ebc/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/88891779ff609511ade609de6da23ebc/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cc45a1ec9962d9e8b46b86a67990a9ec/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/cc45a1ec9962d9e8b46b86a67990a9ec/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128f2dfb33eb6c25ff8f5818992c95e5/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/128f2dfb33eb6c25ff8f5818992c95e5/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b4f83e7f0b97212b5efdf067e3fee419/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/b4f83e7f0b97212b5efdf067e3fee419/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d2241f9d59c2ba751bf09ea6da164fb2/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d2241f9d59c2ba751bf09ea6da164fb2/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f0acc2f5ce20063221123d5dd7c0a082/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f0acc2f5ce20063221123d5dd7c0a082/jetified-firebase-ui-common-8.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/3f68e6dca3b12e1263a29e6c62377a39/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/3f68e6dca3b12e1263a29e6c62377a39/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4a83045d55c8c45061541224ef410bd1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4a83045d55c8c45061541224ef410bd1/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/94d57933acabbb5fe178a5f77cc99326/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/94d57933acabbb5fe178a5f77cc99326/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5ec4f0d95d744b84fe65cf233b95e68a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5ec4f0d95d744b84fe65cf233b95e68a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bc848f4479c85d81728ab7e148b76fb6/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bc848f4479c85d81728ab7e148b76fb6/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f8737858ad3e3738e902ef6ab5846205/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f8737858ad3e3738e902ef6ab5846205/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/0a4a649e9b366722ba8b92214a345457/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4c66bcf333026d29cb04becf6e8143d3/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/4c66bcf333026d29cb04becf6e8143d3/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1c2620ed8afb11662b6c94ff22011612/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/1c2620ed8afb11662b6c94ff22011612/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/89d3e0046bdb5fb05f053f36ff4437b8/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/89d3e0046bdb5fb05f053f36ff4437b8/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d3912e590b2867a825ac2567d2795909/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/d3912e590b2867a825ac2567d2795909/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/53a49541d1bd00ad6d76da44a0ee35e3/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/53a49541d1bd00ad6d76da44a0ee35e3/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/dfd2ef3118ab22cafabea47a9309f687/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/dfd2ef3118ab22cafabea47a9309f687/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f977d8b5cdb2777e863a118b766a9c3e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f977d8b5cdb2777e863a118b766a9c3e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/48e189e553abb54f424fff616c7dc582/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/48e189e553abb54f424fff616c7dc582/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/247177494534e4d91632b39146818674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/247177494534e4d91632b39146818674/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/656e13537e0de86a8a57c1cb5f755ccc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/656e13537e0de86a8a57c1cb5f755ccc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7aae92c28b2be91110890bdeba79710f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7aae92c28b2be91110890bdeba79710f/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9dcc2519d4f17da846df2829aa47eee2/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9dcc2519d4f17da846df2829aa47eee2/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f78d36421653f5a133ead51e12ca7a9d/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/f78d36421653f5a133ead51e12ca7a9d/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9dcc2519d4f17da846df2829aa47eee2/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.41.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9dcc2519d4f17da846df2829aa47eee2/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/c7ca8b242382d6fadbad56fa83efe3f4/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:19-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/bac7100a02dfa1576704bcde567017e6/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/449f74e7dea092dd3d3df025a2014024/jetified-play-services-cloud-messaging-17.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/26f8e95a1aa983d2cdc7a81c6abf76c4/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:25-92
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132

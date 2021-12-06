@@ -1,0 +1,621 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nhom7.den_cafe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:6:5-75
+11-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:6:22-72
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:9:5-80
+14-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:5-79
+15-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:5-68
+16-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:23:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+17-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:11:5-57:19
+21        android:allowBackup="true"
+21-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/7313241674c4b07dde6250251a8b2720/core-1.5.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:14:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:15:9-54
+28        android:supportsRtl="true"
+28-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:16:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Den_cafe" >
+30-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:17:9-46
+31        <activity android:name="com.nhom7.den_cafe.login.OTPSignInActivity" >
+31-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:18:9-19:20
+31-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:18:19-58
+32        </activity>
+33        <activity android:name="com.nhom7.den_cafe.login.OTPActivity" />
+33-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:20:9-55
+33-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:20:19-52
+34        <activity android:name="com.nhom7.den_cafe.UserMainActivity" >
+34-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:21:9-23:20
+34-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:21:19-51
+35        </activity>
+36        <activity android:name="com.nhom7.den_cafe.login.LoginActivity" />
+36-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:24:9-57
+36-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:24:19-54
+37        <activity android:name="com.nhom7.den_cafe.SplashActivity" >
+37-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:25:9-31:20
+37-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:25:19-49
+38            <intent-filter>
+38-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:26:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:27:17-69
+39-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:29:17-77
+41-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.nhom7.den_cafe.AdminMainActivity" >
+44-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:32:9-34:20
+44-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:32:19-52
+45        </activity>
+46
+47        <meta-data
+47-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:36:9-39:45
+48            android:name="com.facebook.sdk.ApplicationId"
+48-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:37:13-58
+49            android:value="@string/facebook_app_id" />
+49-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:38:13-52
+50
+51        <activity
+51-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:41:9-44:48
+52            android:name="com.facebook.FacebookActivity"
+52-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:42:13-57
+53            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+53-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:43:13-96
+54            android:label="@string/app_name"
+54-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:44:13-45
+55            android:theme="@style/com_facebook_activity_theme" />
+55-->[com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
+56        <activity
+56-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:45:9-56:20
+57            android:name="com.facebook.CustomTabActivity"
+57-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:46:13-58
+58            android:exported="true" >
+58-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:47:13-36
+59            <intent-filter>
+59-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:48:13-55:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:17-69
+60-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+62-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:17-78
+63-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:27-75
+64
+65                <data android:scheme="@string/fb_login_protocol_scheme" />
+65-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:17-75
+65-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:23-72
+66            </intent-filter>
+67            <intent-filter>
+67-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:90:13-97:29
+68                <action android:name="android.intent.action.VIEW" />
+68-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:17-69
+68-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+70-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+71                <category android:name="android.intent.category.BROWSABLE" />
+71-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:17-78
+71-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:27-75
+72
+73                <data android:scheme="@string/facebook_login_protocol_scheme" />
+73-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:17-75
+73-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:23-72
+74            </intent-filter>
+75        </activity>
+76
+77        <meta-data
+77-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:14:9-16:69
+78            android:name="com.google.android.gms.version"
+78-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:15:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:16:13-66
+80
+81        <activity
+81-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:21:9-25:61
+82            android:name="com.firebase.ui.auth.KickoffActivity"
+82-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:22:13-64
+83            android:exported="false"
+83-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:23:13-37
+84            android:label=""
+84-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:24:13-29
+85            android:theme="@style/FirebaseUI.Transparent" />
+85-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:25:13-58
+86        <activity
+86-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:26:9-30:61
+87            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+87-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:27:13-76
+88            android:exported="false"
+88-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:28:13-37
+89            android:label=""
+89-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:29:13-29
+90            android:theme="@style/FirebaseUI.Transparent" />
+90-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:30:13-58
+91        <activity
+91-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:31:9-35:61
+92            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+92-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:32:13-86
+93            android:exported="false"
+93-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:33:13-37
+94            android:label=""
+94-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:34:13-29
+95            android:theme="@style/FirebaseUI.Transparent" />
+95-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:35:13-58
+96        <activity
+96-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:36:9-40:58
+97            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+97-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:37:13-81
+98            android:exported="false"
+98-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:38:13-37
+99            android:label="@string/fui_title_recover_password_activity"
+99-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:39:13-72
+100            android:windowSoftInputMode="adjustResize" />
+100-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:40:13-55
+101        <activity
+101-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:41:9-45:58
+102            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+102-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:42:13-71
+103            android:exported="false"
+103-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:43:13-37
+104            android:label="@string/fui_sign_in_default"
+104-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:44:13-56
+105            android:windowSoftInputMode="adjustResize" />
+105-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:45:13-55
+106        <activity
+106-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:46:9-50:77
+107            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+107-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:47:13-71
+108            android:exported="false"
+108-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:48:13-37
+109            android:label="@string/fui_sign_in_with_phone_number"
+109-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:49:13-66
+110            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+110-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:50:13-74
+111        <activity
+111-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:51:9-55:58
+112            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+112-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:52:13-76
+113            android:exported="false"
+113-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:53:13-37
+114            android:label="@string/fui_title_welcome_back_idp_prompt"
+114-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:54:13-70
+115            android:windowSoftInputMode="adjustResize" />
+115-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:55:13-55
+116        <activity
+116-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:56:9-60:58
+117            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+117-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:57:13-83
+118            android:exported="false"
+118-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:58:13-37
+119            android:label="@string/fui_title_welcome_back_password_prompt"
+119-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:59:13-75
+120            android:windowSoftInputMode="adjustResize" />
+120-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:60:13-55
+121        <activity
+121-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:61:9-65:58
+122            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+122-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:62:13-84
+123            android:exported="false"
+123-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:63:13-37
+124            android:label="@string/fui_title_welcome_back_password_prompt"
+124-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:64:13-75
+125            android:windowSoftInputMode="adjustResize" />
+125-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:65:13-55
+126        <activity
+126-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:66:9-71:58
+127            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+127-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:67:13-82
+128            android:exported="false"
+128-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:68:13-37
+129            android:label=""
+129-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:69:13-29
+130            android:theme="@style/FirebaseUI.Transparent"
+130-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:70:13-58
+131            android:windowSoftInputMode="adjustResize" />
+131-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:71:13-55
+132        <activity
+132-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:72:9-76:58
+133            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+133-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:73:13-88
+134            android:exported="false"
+134-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:74:13-37
+135            android:label="@string/fui_sign_in_default"
+135-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:75:13-56
+136            android:windowSoftInputMode="adjustResize" />
+136-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:76:13-55
+137        <activity
+137-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:77:9-80:65
+138            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+138-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:78:13-80
+139            android:exported="false"
+139-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:79:13-37
+140            android:label="@string/fui_default_toolbar_title" />
+140-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:80:13-62
+141
+142        <provider
+142-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:100:9-104:38
+143            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+143-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:101:13-79
+144            android:authorities="com.nhom7.den_cafe.authuiinitprovider"
+144-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:102:13-70
+145            android:exported="false"
+145-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:103:13-37
+146            android:initOrder="90" />
+146-->[com.firebaseui:firebase-ui-auth:8.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/9299000a9bf5e771477c2b9bc108ee06/jetified-firebase-ui-auth-8.0.0/AndroidManifest.xml:104:13-35
+147
+148        <activity android:name="com.facebook.CustomTabMainActivity" />
+148-->[com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71
+148-->[com.facebook.android:facebook-common:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5e1bae68f6c2e5ad5ec75f05b3be3406/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:19-68
+149
+150        <receiver
+150-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+151            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+151-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+152            android:exported="true"
+152-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+154            <intent-filter>
+154-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+155-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+156            </intent-filter>
+157        </receiver>
+158        <!--
+159             FirebaseMessagingService performs security checks at runtime,
+160             but set to not exported to explicitly avoid allowing another app to call it.
+161        -->
+162        <service
+162-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+163            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+163-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+166            <intent-filter android:priority="-500" >
+166-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:13-47:29
+166-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:28-51
+167                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+167-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:17-78
+167-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:25-75
+168            </intent-filter>
+169        </service>
+170        <service
+170-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+171            android:name="com.google.firebase.components.ComponentDiscoveryService"
+171-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+173            android:exported="false" >
+173-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+174            <meta-data
+174-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+175                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+175-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-messaging:23.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/015da577fba1385b88f2a1ee4b729362/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+178                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+178-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
+181                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+181-->[com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-database:20.0.2] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/5bcdce8caf85b475da1bde4413c02f5a/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+184                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+184-->[com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-storage:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/ee800acd76b1c28c88bbdd9ce4a23f13/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+187                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+187-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/82a616594b02e564b4e7d80b6b8d19b9/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:20:13-22:85
+190                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+190-->[com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-firestore:24.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/2311d5a621ce2e34e2abf91226a7e5c9/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
+192            <meta-data
+192-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+193                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+193-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/15ea7828da6df684846d2035fe99cbcc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+196                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+196-->[com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-installations:17.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/753c49e116d9e717ba99b317388e058b/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+198        </service>
+199
+200        <activity
+200-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+201            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+201-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+202            android:excludeFromRecents="true"
+202-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+203            android:exported="true"
+203-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+204            android:launchMode="singleTask"
+204-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+205-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+206            <intent-filter>
+206-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+207                <action android:name="android.intent.action.VIEW" />
+207-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:17-69
+207-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:25-66
+208
+209                <category android:name="android.intent.category.DEFAULT" />
+209-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+209-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+210                <category android:name="android.intent.category.BROWSABLE" />
+210-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:17-78
+210-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:27-75
+211
+212                <data
+212-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:17-75
+213                    android:host="firebase.auth"
+214                    android:path="/"
+215                    android:scheme="genericidp" />
+215-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:23-72
+216            </intent-filter>
+217        </activity>
+218        <activity
+218-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+219            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+219-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+220            android:excludeFromRecents="true"
+220-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+221            android:exported="true"
+221-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+222            android:launchMode="singleTask"
+222-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+223-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+224            <intent-filter>
+224-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+225                <action android:name="android.intent.action.VIEW" />
+225-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:17-69
+225-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:49:25-66
+226
+227                <category android:name="android.intent.category.DEFAULT" />
+227-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+227-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+228                <category android:name="android.intent.category.BROWSABLE" />
+228-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:17-78
+228-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:52:27-75
+229
+230                <data
+230-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:17-75
+231                    android:host="firebase.auth"
+232                    android:path="/"
+233                    android:scheme="recaptcha" />
+233-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:54:23-72
+234            </intent-filter>
+235        </activity>
+236
+237        <service
+237-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+238            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+238-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+239            android:enabled="true"
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+240            android:exported="false" >
+240-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+241            <intent-filter>
+241-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+242                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/8789e1b5f5d72a0e60fe6a91658fd56a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+243
+244                <category android:name="android.intent.category.DEFAULT" />
+244-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:17-76
+244-->/Users/tranbaoan/Documents/GitHub/DEN_COFFEE/app/src/main/AndroidManifest.xml:51:27-73
+245            </intent-filter>
+246        </service>
+247
+248        <activity
+248-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+249            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+249-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+250            android:excludeFromRecents="true"
+250-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+251            android:exported="false"
+251-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+253        <!--
+254            Service handling Google Sign-In user revocation. For apps that do not integrate with
+255            Google Sign-In, this service will never be started.
+256        -->
+257        <service
+257-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+258            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+258-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+259            android:exported="true"
+259-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+260            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+260-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+261            android:visibleToInstantApps="true" />
+261-->[com.google.android.gms:play-services-auth:19.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/16a64d83866f8257f7b8afb019680d1e/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+262        <service
+262-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+263            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+263-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+264            android:exported="false" >
+264-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+265            <meta-data
+265-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+266                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+266-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+267                android:value="cct" />
+267-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/e97f6e2ae36a55cc91d3360e203644f9/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+268        </service>
+269
+270        <provider
+270-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+271            android:name="com.google.firebase.provider.FirebaseInitProvider"
+271-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+272            android:authorities="com.nhom7.den_cafe.firebaseinitprovider"
+272-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+274            android:exported="false"
+274-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+275            android:initOrder="100" />
+275-->[com.google.firebase:firebase-common:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/a290a42657b5c166afc7163c07f133aa/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+276
+277        <activity
+277-->[com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+278            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+278-->[com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+279            android:exported="false"
+279-->[com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+280            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+280-->[com.google.android.gms:play-services-base:17.5.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/521241ae6533141b759d65cb26b431f8/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+281
+282        <receiver
+282-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+283            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+283-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+284            android:enabled="true"
+284-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+285            android:exported="false" >
+285-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+286        </receiver>
+287
+288        <service
+288-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+289            android:name="com.google.android.gms.measurement.AppMeasurementService"
+289-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+291            android:exported="false" />
+291-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+292        <service
+292-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+293            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+293-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+294            android:enabled="true"
+294-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+295            android:exported="false"
+295-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+296            android:permission="android.permission.BIND_JOB_SERVICE" />
+296-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/fb071f7ea61f265efc31817878ecfcc3/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+297        <!--
+298         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+299         with the application context. This config is merged in with the host app's manifest,
+300         but there can only be one provider with the same authority activated at any given
+301         point; so if the end user has two or more different apps that use Facebook SDK, only the
+302         first one will be able to use the provider. To work around this problem, we use the
+303         following placeholder in the authority to identify each host application as if it was
+304         a completely different provider.
+305        -->
+306        <provider
+306-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
+307            android:name="com.facebook.internal.FacebookInitProvider"
+307-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:40:13-70
+308            android:authorities="com.nhom7.den_cafe.FacebookInitProvider"
+308-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:41:13-72
+309            android:exported="false" />
+309-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:42:13-37
+310
+311        <receiver
+311-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
+312            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+312-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:45:13-86
+313            android:exported="false" >
+313-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:46:13-37
+314            <intent-filter>
+314-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
+315                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+315-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:17-95
+315-->[com.facebook.android:facebook-core:4.42.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/14c74534517c9de74aaf9dd2fd46b646/jetified-facebook-core-4.42.0/AndroidManifest.xml:48:25-92
+316            </intent-filter>
+317        </receiver>
+318
+319        <provider
+319-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+320            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+320-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+321            android:authorities="com.nhom7.den_cafe.lifecycle-process"
+321-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+322            android:exported="false"
+322-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+323            android:multiprocess="true" />
+323-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/80f8d53003e598ffef0491f920422f0f/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+324
+325        <service
+325-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+326            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+326-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+327            android:exported="false"
+327-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+328            android:permission="android.permission.BIND_JOB_SERVICE" >
+328-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+329        </service>
+330
+331        <receiver
+331-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+332            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+332-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+333            android:exported="false" />
+333-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/tranbaoan/Desktop/MOB202/caches/transforms-2/files-2.1/eca2cf0ff156594af7a6f73bd250dcbb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+334    </application>
+335
+336</manifest>
