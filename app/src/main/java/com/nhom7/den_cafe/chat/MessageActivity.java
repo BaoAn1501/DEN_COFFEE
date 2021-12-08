@@ -37,12 +37,6 @@ import com.nhom7.den_cafe.UserMainActivity;
 import com.nhom7.den_cafe.adapter.MessageAdapter;
 import com.nhom7.den_cafe.model.Chat;
 import com.nhom7.den_cafe.model.User;
-import com.nhom7.den_cafe.notification.Client;
-import com.nhom7.den_cafe.notification.Data;
-import com.nhom7.den_cafe.notification.MyFirebaseService;
-import com.nhom7.den_cafe.notification.MyResponse;
-import com.nhom7.den_cafe.notification.Sender;
-import com.nhom7.den_cafe.notification.Token;
 
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
@@ -74,7 +68,6 @@ public class MessageActivity extends AppCompatActivity {
     MessageAdapter adapter;
     ValueEventListener seenListener;
     int from;
-    APIService service;
     boolean notify = false;
     String chatId, userId, userImage;
 

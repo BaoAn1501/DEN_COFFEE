@@ -50,7 +50,7 @@ public class UMProductFragment extends Fragment {
     public void onViewCreated(@NonNull @NotNull View view, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         rcv = view.findViewById(R.id.rcvUMPF);
-        addToRealtimeDatabase();
+        getListFromFirebase();
         GridLayoutManager manager = new GridLayoutManager(getContext(), 2);
         rcv.setLayoutManager(manager);
         adapter = new ProductCategoryAdapter(getContext(), list);
@@ -79,7 +79,7 @@ public class UMProductFragment extends Fragment {
 
     }
 
-    private void addToRealtimeDatabase() {
+    private void getListFromFirebase() {
         DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference("list_product");
         databaseRef.addValueEventListener(new ValueEventListener() {
             @Override

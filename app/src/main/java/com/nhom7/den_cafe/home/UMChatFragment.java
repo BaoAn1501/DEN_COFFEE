@@ -32,7 +32,6 @@ import com.nhom7.den_cafe.adapter.SearchProductAdapter;
 import com.nhom7.den_cafe.adapter.UserListChatAdapter;
 import com.nhom7.den_cafe.model.Product;
 import com.nhom7.den_cafe.model.User;
-import com.nhom7.den_cafe.notification.Token;
 
 import org.jetbrains.annotations.NotNull;
 

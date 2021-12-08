@@ -54,11 +54,10 @@ public class AMProductAmountFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         rcv = view.findViewById(R.id.rcvAMPAF);
         getProductFromOrder();
-
     }
 
     private void getProductFromOrder(){
-        addToRealtimeDatabase();
+        getListFromFirebase();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         final Date today = new Date();
         int month = today.getMonth();
@@ -125,7 +124,7 @@ public class AMProductAmountFragment extends Fragment {
         });
     }
 
-    private void addToRealtimeDatabase() {
+    private void getListFromFirebase() {
         DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference("list_product");
         databaseRef.addValueEventListener(new ValueEventListener() {
             @Override

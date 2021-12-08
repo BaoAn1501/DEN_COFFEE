@@ -22,6 +22,9 @@
     <style name="dialog_alert" parent="Theme.AppCompat.Dialog.Alert">
         <!--màu nền hộp thoại-->
         <item name="android:colorBackground">@color/White</item>
+        <item name="android:textColorPrimary">@color/Brown</item>
+        <!--màu chữ yes no-->
+        <item name="colorOnPrimary">@color/Blue</item>
         <!--cài góc bo cho hộp thoại dialog-->
         <item name="dialogCornerRadius">20dp</item>
         <!--        <item name="android:windowBackground">@color/White</item>-->

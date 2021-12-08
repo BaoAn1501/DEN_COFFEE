@@ -59,8 +59,6 @@ public class AMPersonFragment extends Fragment {
                 }
             }
         });
-        DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
-        userRef.child(uid).setValue(new User(uid, "DEN CAFE", currentUser.getPhoneNumber(), ""));
     }
 
     private void init(){

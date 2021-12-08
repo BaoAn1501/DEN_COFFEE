@@ -97,6 +97,7 @@ public class ProductTypeAdapter extends RecyclerView.Adapter<ProductTypeAdapter.
                     @Override
                     public void onSuccess(Void unused) {
                         list.remove(type.getTypeId());
+                        Toast.makeText(context, "Đã xoá loại món", Toast.LENGTH_SHORT).show();
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
@@ -141,7 +142,7 @@ public class ProductTypeAdapter extends RecyclerView.Adapter<ProductTypeAdapter.
         AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.dialog_alert);
         final AlertDialog dialog = builder.create();
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        builder.setMessage("Bạn có muốn xoá loại sản phẩm này không ?");
+        builder.setMessage("Bạn có muốn xoá loại món này không ?");
         builder.setCancelable(false);
         builder.setNegativeButton("không", new DialogInterface.OnClickListener() {
             @Override

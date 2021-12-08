@@ -41,9 +41,9 @@ public class AddProductPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0:
-                return "Sản phẩm";
+                return "Món";
             case 1:
-                return "Loại sản phẩm";
+                return "Loại món";
         }
         return null;
     }

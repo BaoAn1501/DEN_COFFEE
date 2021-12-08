@@ -204,7 +204,6 @@ public class DetailProductFragment extends Fragment {
     private void addtoCart(){
         DatabaseReference cartRef = userRef.child(uid).child("cart");
         if(cartList.size()==0){
-            Toast.makeText(getActivity(), "new item / null", Toast.LENGTH_SHORT).show();
             Cart cart = new Cart(mProduct.getProductId(), mProduct.getProductName(), mProduct.getProductPrice(), 1, mProduct.getProductImage());
             cartRef.child(mProduct.getProductId()).setValue(cart);
             loadFragment(new CartFragment());

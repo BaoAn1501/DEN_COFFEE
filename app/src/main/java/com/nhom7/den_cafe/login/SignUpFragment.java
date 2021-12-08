@@ -75,7 +75,7 @@ public class SignUpFragment extends Fragment {
                     String name = edName.getEditText().getText().toString().trim();
                     String phone = edPhone.getEditText().getText().toString().trim();
                     String email = edEmail.getEditText().getText().toString().trim();
-                    mUser = new User(name, phone, email);
+                    mUser = new User(name, phone, email, "default");
                     onClickVerifyPhoneNumber();
                 }
             }
@@ -192,6 +192,12 @@ public class SignUpFragment extends Fragment {
             result=0;
         } else {
             edName.setErrorEnabled(false);
+        }
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getUserName().equals(edName.getEditText().getText().toString().trim())){
+                edName.setError("Tên này đã được đăng ký trước đó");
+                result = 0;
+            }
         }
         return result;
     }

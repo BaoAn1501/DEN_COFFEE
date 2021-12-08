@@ -38,7 +38,7 @@ public class AMProductAnalysisPagerAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0:
-                return "Lượng mua";
+                return "Lượng mua / tháng";
             case 1:
                 return "Đánh giá";
         }

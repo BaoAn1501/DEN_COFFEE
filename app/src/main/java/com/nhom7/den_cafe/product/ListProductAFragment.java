@@ -69,12 +69,12 @@ public class ListProductAFragment extends Fragment {
         });
         LinearLayoutManager manager = new LinearLayoutManager(getContext());
         rcv.setLayoutManager(manager);
-        addToRealtimeDatabase();
+        getListFromFirebase();
         adapter = new ProductAdapter(getContext(), list);
         rcv.setAdapter(adapter);
     }
 
-    private void addToRealtimeDatabase() {
+    private void getListFromFirebase() {
         DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference("list_product");
         databaseRef.addValueEventListener(new ValueEventListener() {
             @Override

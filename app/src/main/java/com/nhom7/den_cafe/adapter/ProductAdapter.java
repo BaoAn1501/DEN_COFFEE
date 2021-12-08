@@ -125,7 +125,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
         AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.dialog_alert);
         final AlertDialog dialog = builder.create();
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        builder.setMessage("Bạn có muốn xoá sản phẩm này không ?");
+        builder.setMessage("Bạn có muốn xoá món này không ?");
         builder.setCancelable(false);
         builder.setNegativeButton("không", new DialogInterface.OnClickListener() {
             @Override
@@ -150,7 +150,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             public void onSuccess(Void unused) {
                 storageRef.delete();
                 ratingRef.child(product.getProductId()).removeValue();
-                Toast.makeText(context, "Đã xoá sản phẩm", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Đã xoá món", Toast.LENGTH_SHORT).show();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override

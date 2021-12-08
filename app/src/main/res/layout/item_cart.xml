@@ -70,7 +70,7 @@
             app:layout_constraintStart_toEndOf="@+id/amount_Item_Cart" />
         <ImageView
             android:id="@+id/remove_Item_Cart"
-            android:src="@drawable/ic_baseline_clear_24_red"
+            android:src="@drawable/ic_baseline_clear_24"
             android:layout_width="30dp"
             android:layout_height="30dp"
             app:layout_constraintEnd_toEndOf="parent"

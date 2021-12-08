@@ -1,6 +1,9 @@
 package com.nhom7.den_cafe.login;
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -9,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -63,9 +67,7 @@ import java.util.concurrent.TimeUnit;
 public class SignInFragment extends Fragment {
     View view;
     TextInputLayout edPhone;
-    TextView tvOr;
-    CardView cvSignIn;
-    ImageView ivGoogle, ivFacebook;
+    CardView cvSignIn, cvHelp;
     List<User> list = new ArrayList<>();
     ProgressDialog progressDialog;
     DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
@@ -86,11 +88,11 @@ public class SignInFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         init();
         animated();
-        FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
-        createRequestGoogle();
+//        FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
+//        createRequestGoogle();
         getListUser();
         validation();
-        mCallbackManager = CallbackManager.Factory.create();
+//        mCallbackManager = CallbackManager.Factory.create();
         cvSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -100,46 +102,42 @@ public class SignInFragment extends Fragment {
                 }
             }
         });
-        ivGoogle.setOnClickListener(new View.OnClickListener() {
+        cvHelp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                signInGoogle();
+                openDialogHelper();
             }
         });
-        ivFacebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signInFaceBook();
-            }
-        });
+    }
 
+    private void openDialogHelper(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(getContext(), R.style.dialog_alert);
+        LayoutInflater inflater = getActivity().getLayoutInflater();
+        View view = inflater.inflate(R.layout.dialog_helper, null);
+        final AlertDialog dialog = builder.create();
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setView(view);
+        dialog.show();
     }
 
     private void init(){
         edPhone = view.findViewById(R.id.edPhone_SignIn);
-        tvOr = view.findViewById(R.id.tvOr);
         cvSignIn = view.findViewById(R.id.cvSignIn);
-        ivFacebook = view.findViewById(R.id.ivFacebook_SignIn);
-        ivGoogle = view.findViewById(R.id.ivGoogle_SignIn);
+        cvHelp = view.findViewById(R.id.cvHelpSignIn);
     }
     public void animated(){
         edPhone.setAlpha(0);
         cvSignIn.setAlpha(0);
-        tvOr.setAlpha(0);
-        ivFacebook.setAlpha(0);
-        ivGoogle.setAlpha(0);
+        cvHelp.setAlpha(0);
         edPhone.setTranslationX(700);
         cvSignIn.setTranslationX(700);
-        tvOr.setTranslationX(700);
-        ivFacebook.setTranslationY(300);
-        ivGoogle.setTranslationY(300);
+        cvHelp.setTranslationX(700);
         edPhone.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(350).start();
-        cvSignIn.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(400).start();
-        tvOr.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(450).start();
-        ivGoogle.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(500).start();
-        ivFacebook.animate().translationY(0).alpha(1).setDuration(1000).setStartDelay(550).start();
+        cvHelp.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(400).start();
+        cvSignIn.animate().translationX(0).alpha(1).setDuration(800).setStartDelay(450).start();
     }
-    private int validatePhone(){
+
+    private int validateInput(){
         int result = 1;
         String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
         if(edPhone.getEditText().getText().toString().trim().equals("")){
@@ -152,6 +150,10 @@ public class SignInFragment extends Fragment {
         else {
             edPhone.setErrorEnabled(false);
         }
+        return result;
+    }
+    private int validatePhone(){
+        int result = 1;
         int getphone = 0;
         for(int i=0;i<list.size();i++){
             if(list.get(i).getUserPhone().equals(edPhone.getEditText().getText().toString().trim())){
@@ -161,6 +163,8 @@ public class SignInFragment extends Fragment {
         if(getphone==0){
             edPhone.setError("Số điện thoại chưa được đăng ký");
             result = 0;
+        } else {
+            edPhone.setErrorEnabled(false);
         }
         if(edPhone.getEditText().getText().toString().trim().equals("+84387463895")){
             result=1;
@@ -200,6 +204,8 @@ public class SignInFragment extends Fragment {
         if(currentUser != null){
             try {
                 if(currentUser.getPhoneNumber().equals("+84387463895")){
+                    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
+                    userRef.child(currentUser.getUid()).setValue(new User(currentUser.getUid(), "DEN CAFE", currentUser.getPhoneNumber(), "dencafe@gmail.com", "default"));
                     startActivity(new Intent(getActivity(), AdminMainActivity.class));
                 }else {
                     startActivity(new Intent(getActivity(), UserMainActivity.class));
@@ -212,104 +218,104 @@ public class SignInFragment extends Fragment {
         }
     }
 
-    private void signInGoogle() {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
-    }
-
-    private void createRequestGoogle() {
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
-                .requestEmail()
-                .build();
-        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
-    }
-
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
-        if (requestCode == RC_SIGN_IN) {
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                // Google Sign In was successful, authenticate with Firebase
-                GoogleSignInAccount account = task.getResult(ApiException.class);
-                Log.d(TAG, "firebaseAuthWithGoogle:" + account.getId());
-                firebaseAuthWithGoogle(account.getIdToken());
-            } catch (ApiException e) {
-                // Google Sign In failed, update UI appropriately
-                Log.w(TAG, "Google sign in failed", e);
-            }
-        }
-        mCallbackManager.onActivityResult(requestCode, resultCode, data);
-    }
-
-    private void firebaseAuthWithGoogle(String idToken) {
-        AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
-        mAuth.signInWithCredential(credential)
-                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            Log.d(TAG, "signInWithCredential:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
-                            startActivity(new Intent(getActivity(), UserMainActivity.class));
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Log.w(TAG, "signInWithCredential:failure", task.getException());
-                            updateUI(null);
-                        }
-                    }
-                });
-    }
-    private void signInFaceBook() {
-        LoginManager.getInstance().logInWithReadPermissions(getActivity(),
-                Arrays.asList("email", "public_profile"));
-        LoginManager.getInstance().registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
-            @Override
-            public void onSuccess(LoginResult loginResult) {
-                handleFacebookAccessToken(loginResult.getAccessToken());
-            }
-
-            @Override
-            public void onCancel() {
-
-            }
-
-            @Override
-            public void onError(FacebookException error) {
-                Toast.makeText(getActivity(), "error"+error.getMessage().toString(), Toast.LENGTH_SHORT).show();
-            }
-        });
-
-    }
-
-    private void handleFacebookAccessToken(AccessToken token) {
-        Log.d(TAG, "handleFacebookAccessToken:" + token);
-        AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
-        mAuth.signInWithCredential(credential)
-                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            Log.d(TAG, "signInWithCredential:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
-                            startActivity(new Intent(getActivity(), UserMainActivity.class));
-                            Toast.makeText(getActivity(), "Login Success", Toast.LENGTH_SHORT).show();
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Log.w(TAG, "signInWithCredential:failure", task.getException());
-                            Toast.makeText(getActivity(), "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
-                            updateUI(null);
-                        }
-                    }
-                });
-    }
+//    private void signInGoogle() {
+//        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+//        startActivityForResult(signInIntent, RC_SIGN_IN);
+//    }
+//
+//    private void createRequestGoogle() {
+//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                .requestIdToken(getString(R.string.default_web_client_id))
+//                .requestEmail()
+//                .build();
+//        mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), gso);
+//    }
+//
+//    @Override
+//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+//        if (requestCode == RC_SIGN_IN) {
+//            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+//            try {
+//                // Google Sign In was successful, authenticate with Firebase
+//                GoogleSignInAccount account = task.getResult(ApiException.class);
+//                Log.d(TAG, "firebaseAuthWithGoogle:" + account.getId());
+//                firebaseAuthWithGoogle(account.getIdToken());
+//            } catch (ApiException e) {
+//                // Google Sign In failed, update UI appropriately
+//                Log.w(TAG, "Google sign in failed", e);
+//            }
+//        }
+//        mCallbackManager.onActivityResult(requestCode, resultCode, data);
+//    }
+//
+//    private void firebaseAuthWithGoogle(String idToken) {
+//        AuthCredential credential = GoogleAuthProvider.getCredential(idToken, null);
+//        mAuth.signInWithCredential(credential)
+//                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<AuthResult> task) {
+//                        if (task.isSuccessful()) {
+//                            // Sign in success, update UI with the signed-in user's information
+//                            Log.d(TAG, "signInWithCredential:success");
+//                            FirebaseUser user = mAuth.getCurrentUser();
+//                            updateUI(user);
+//                            startActivity(new Intent(getActivity(), UserMainActivity.class));
+//                        } else {
+//                            // If sign in fails, display a message to the user.
+//                            Log.w(TAG, "signInWithCredential:failure", task.getException());
+//                            updateUI(null);
+//                        }
+//                    }
+//                });
+//    }
+//    private void signInFaceBook() {
+//        LoginManager.getInstance().logInWithReadPermissions(getActivity(),
+//                Arrays.asList("email", "public_profile"));
+//        LoginManager.getInstance().registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
+//            @Override
+//            public void onSuccess(LoginResult loginResult) {
+//                handleFacebookAccessToken(loginResult.getAccessToken());
+//            }
+//
+//            @Override
+//            public void onCancel() {
+//
+//            }
+//
+//            @Override
+//            public void onError(FacebookException error) {
+//                Toast.makeText(getActivity(), "error"+error.getMessage().toString(), Toast.LENGTH_SHORT).show();
+//            }
+//        });
+//
+//    }
+//
+//    private void handleFacebookAccessToken(AccessToken token) {
+//        Log.d(TAG, "handleFacebookAccessToken:" + token);
+//        AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
+//        mAuth.signInWithCredential(credential)
+//                .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<AuthResult> task) {
+//                        if (task.isSuccessful()) {
+//                            // Sign in success, update UI with the signed-in user's information
+//                            Log.d(TAG, "signInWithCredential:success");
+//                            FirebaseUser user = mAuth.getCurrentUser();
+//                            updateUI(user);
+//                            startActivity(new Intent(getActivity(), UserMainActivity.class));
+//                            Toast.makeText(getActivity(), "Login Success", Toast.LENGTH_SHORT).show();
+//                        } else {
+//                            // If sign in fails, display a message to the user.
+//                            Log.w(TAG, "signInWithCredential:failure", task.getException());
+//                            Toast.makeText(getActivity(), "Authentication failed.",
+//                                    Toast.LENGTH_SHORT).show();
+//                            updateUI(null);
+//                        }
+//                    }
+//                });
+//    }
 
     private void VerifyPhoneNumber(String phone) {
         PhoneAuthOptions options =
@@ -356,6 +362,8 @@ public class SignInFragment extends Fragment {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = task.getResult().getUser();
+//                            DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
+//                            userRef.child(user.getUid()).setValue(new User(user.getUid(), "DEN CAFE", user.getPhoneNumber(), "dencafe@gmail.com", "default"));
                             // Update UI
                             updateUI(user);
                             startActivity(new Intent(getActivity(), UserMainActivity.class));
@@ -380,7 +388,7 @@ public class SignInFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                validatePhone();
+                validateInput();
             }
 
             @Override

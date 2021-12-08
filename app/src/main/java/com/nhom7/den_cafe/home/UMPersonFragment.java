@@ -19,6 +19,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -41,6 +43,7 @@ import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.login.LoginActivity;
 import com.nhom7.den_cafe.model.ProductType;
 import com.nhom7.den_cafe.model.User;
+import com.nhom7.den_cafe.product.AddProductFragment;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -61,8 +64,8 @@ public class UMPersonFragment extends Fragment {
     ProgressDialog progressDialog;
     private List<User> list = new ArrayList<>();
     DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
-    StorageReference imgRef = FirebaseStorage.getInstance().getReference("imageFolder");
-    Uri mImageUri;
+    StorageReference storageRef = FirebaseStorage.getInstance().getReference("imageFolder");
+    private Uri mImageUri;
     User mUser;
     @Nullable
     @org.jetbrains.annotations.Nullable
@@ -99,9 +102,46 @@ public class UMPersonFragment extends Fragment {
         tvName = view.findViewById(R.id.tvName_UserInfo);
         tvEmail = view.findViewById(R.id.tvEmail_UserInfo);
         tvPhone = view.findViewById(R.id.tvPhone_UserInfo);
-        cvSetAvatar = view.findViewById(R.id.cvSetAvatar_UserInfo);
         ivProfile = view.findViewById(R.id.ivProfile_UserInfo);
         cvLogout = view.findViewById(R.id.logout_UserInfo);
+    }
+
+    private void getUserInfo(){
+        userRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
+                list.clear();
+                for(DataSnapshot dataSnapshot:snapshot.getChildren()){
+                    User user = dataSnapshot.getValue(User.class);
+                    list.add(user);
+                }
+                int pos = 0;
+                for(int i=0;i<list.size();i++){
+                    if(list.get(i).getUserId().equals(uid)){
+                        pos = i;
+                    }
+                }
+                mUser = list.get(pos);
+                tvName.setText(mUser.getUserName());
+                tvPhone.setText(mUser.getUserPhone());
+                tvEmail.setText(mUser.getUserEmail());
+                if(mUser.getUserImage().equals("default")){
+                    ivProfile.setImageResource(R.drawable.logoicon);
+                } else {
+                    Glide
+                            .with(getContext())
+                            .load(mUser.getUserImage())
+                            .centerCrop()
+                            .placeholder(R.drawable.logoicon)
+                            .into(ivProfile);
+                }
+
+            }
+            @Override
+            public void onCancelled(@NonNull @NotNull DatabaseError error) {
+
+            }
+        });
     }
 
     private void chooseImage() {
@@ -120,73 +160,32 @@ public class UMPersonFragment extends Fragment {
             ivProfile.setImageURI(mImageUri);
             Glide.with(this).load(mImageUri).into(ivProfile);
             if(mImageUri!=null){
-//                cvSetAvatar.setVisibility(View.VISIBLE);
-                setImage();
+                chaneImageProfile();
             }
         }
     }
 
-    private void setImage() {
-        String key = UUID.randomUUID().toString();
-        progressDialog = new ProgressDialog(getContext());
-        progressDialog.setMessage("Đang tải ảnh...");
-        progressDialog.show();
-        userRef.child(uid).child("userImage").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
-                if(!snapshot.exists()){
-                    StorageReference fileReference = imgRef.child("imageUser/" + key);
-                    storageTask = fileReference.putFile(mImageUri)
-                            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                                @Override
-                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                                    Task<Uri> uri = taskSnapshot.getStorage().getDownloadUrl();
-                                    while(!uri.isComplete());
-                                    Uri url = uri.getResult();
-                                    String imageUrl = url.toString();
-                                    userRef.child(uid).child("userImage").setValue(imageUrl);
-                                }
-                            });
-                    progressDialog.dismiss();
-                }
-                else {
-                    Toast.makeText(getContext(), "Không thể sửa ảnh", Toast.LENGTH_SHORT).show();
-                    progressDialog.dismiss();
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull @NotNull DatabaseError error) {
-
-            }
-        });
-    }
-
-    private void getUserInfo(){
-        userRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
-                list.clear();
-                for(DataSnapshot dataSnapshot:snapshot.getChildren()){
-                    User user = dataSnapshot.getValue(User.class);
-                    if(user.getUserPhone().equals(currentUser.getPhoneNumber())){
-                        list.add(user);
-                        tvName.setText(user.getUserName());
-                        tvEmail.setText(user.getUserEmail());
-                        tvPhone.setText(user.getUserPhone());
-                        Glide
-                                .with(getActivity())
-                                .load(user.getUserImage())
-                                .centerCrop()
-                                .placeholder(R.drawable.logoicon)
-                                .into(ivProfile);
-                    }
-                }
-            }
-            @Override
-            public void onCancelled(@NonNull @NotNull DatabaseError error) {
-
-            }
-        });
+    private void chaneImageProfile() {
+        if (mImageUri != null) {
+            progressDialog = new ProgressDialog(getContext());
+            progressDialog.setMessage("Đang xử lý...");
+            progressDialog.show();
+            String key = UUID.randomUUID().toString();
+            StorageReference fileReference = storageRef.child("imageProfile/" + key);
+            storageTask = fileReference.putFile(mImageUri)
+                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            Task<Uri> uri = taskSnapshot.getStorage().getDownloadUrl();
+                            while(!uri.isComplete());
+                            Uri url = uri.getResult();
+                            String imageUrl = url.toString();
+                            userRef.child(mUser.getUserId()).child("userImage").setValue(imageUrl);
+                            progressDialog.dismiss();
+                        }
+                    });
+        } else {
+            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho loại sản phẩm", Toast.LENGTH_SHORT).show();
+        }
     }
 }

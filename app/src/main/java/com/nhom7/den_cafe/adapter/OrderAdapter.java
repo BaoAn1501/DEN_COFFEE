@@ -1,13 +1,17 @@
 package com.nhom7.den_cafe.adapter;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -15,6 +19,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -64,6 +69,12 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
                 ((FragmentActivity)context).getSupportFragmentManager().beginTransaction().replace(R.id.frame_UserMain, fragment, null).commit();
             }
         });
+        holder.ivRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialogRemoveItem(state);
+            }
+        });
 
     }
 
@@ -78,12 +89,49 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
         CardView cv;
         TextView tvDate, tvState, tvShow;
+        ImageView ivRemove;
         public ViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
             cv = itemView.findViewById(R.id.cvItemOrderState);
             tvDate = itemView.findViewById(R.id.tvDateItemOrderState);
             tvState = itemView.findViewById(R.id.tvStateItemOrderState);
             tvShow = itemView.findViewById(R.id.tvShowBillItemOrderState);
+            ivRemove = itemView.findViewById(R.id.ivRemoveItemOrderState);
         }
+    }
+
+    private void openDialogRemoveItem(OrderState state) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.dialog_alert);
+        final AlertDialog dialog = builder.create();
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        builder.setMessage("Bạn có muốn huỷ đơn hàng này không ?");
+        builder.setCancelable(false);
+        builder.setNegativeButton("không", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        }).setPositiveButton("có", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                deleteState(state);
+            }
+        }).show();
+    }
+
+    private void deleteState(OrderState state){
+        DatabaseReference orderstateRef = FirebaseDatabase.getInstance().getReference("list_order_state");
+        DatabaseReference orderdetailRef = FirebaseDatabase.getInstance().getReference("list_order_detail");
+        orderstateRef.child(state.getIdState()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void unused) {
+                orderdetailRef.child(state.getIdState()).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void unused) {
+                        Toast.makeText(context, "Đã huỷ đơn hàng", Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+        });
     }
 }

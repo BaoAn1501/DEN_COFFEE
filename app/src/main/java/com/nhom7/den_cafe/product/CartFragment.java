@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -72,7 +73,11 @@ public class CartFragment extends Fragment {
         cvOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadFragment(new ConfirmAddressFragment());
+                if(sum>0){
+                    loadFragment(new ConfirmAddressFragment());
+                } else {
+                    Toast.makeText(getActivity(), "Bạn chưa có món nào", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

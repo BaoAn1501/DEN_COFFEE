@@ -19,11 +19,11 @@ public class User implements Serializable {
         this.userImage = userImage;
     }
 
-    public User(String userId, String userName, String userPhone, String userEmail) {
-        this.userId = userId;
+    public User(String userName, String userPhone, String userEmail, String userImage) {
         this.userName = userName;
         this.userPhone = userPhone;
         this.userEmail = userEmail;
+        this.userImage = userImage;
     }
 
     public User(String userName, String userPhone, String userEmail) {

@@ -61,7 +61,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 if(cart.getProductAmount()<99){
                     cartRef.child(cart.getCartId()).child("productAmount").setValue(cart.getProductAmount()+1);
                 } else {
-                    Toast.makeText(context, "Amount reach max", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Số lượng món tối đa là 99", Toast.LENGTH_SHORT).show();
                 }
                 holder.tvAmount.setText(cart.getProductAmount()+"");
             }
@@ -72,7 +72,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 if(cart.getProductAmount()>1){
                     cartRef.child(cart.getCartId()).child("productAmount").setValue(cart.getProductAmount()-1);
                 } else {
-                    Toast.makeText(context, "Amount reach min", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Số lượng món tối thiểu là 1", Toast.LENGTH_SHORT).show();
                 }
                 holder.tvAmount.setText(cart.getProductAmount()+"");
             }
@@ -84,7 +84,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
                 cartRef.child(cart.getCartId()).removeValue(new DatabaseReference.CompletionListener() {
                     @Override
                     public void onComplete(@Nullable @org.jetbrains.annotations.Nullable DatabaseError error, @NonNull @NotNull DatabaseReference ref) {
-                        Toast.makeText(context, "Remove item success at"+position, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Đã gỡ món ra khỏi giỏ hàng"+position, Toast.LENGTH_SHORT).show();
                     }
                 });
             }

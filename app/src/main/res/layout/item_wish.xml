@@ -54,7 +54,7 @@
         
         <ImageView
             android:id="@+id/remove_Item_Wish"
-            android:src="@drawable/ic_baseline_clear_24_red"
+            android:src="@drawable/ic_baseline_clear_40"
             android:layout_width="30dp"
             android:layout_height="30dp"
             app:layout_constraintEnd_toEndOf="parent"
