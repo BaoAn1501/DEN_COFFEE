@@ -92,12 +92,25 @@ public class DetailProductFragment extends Fragment {
         ivToWish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ivToWish.getDrawable().getConstantState()==getResources().getDrawable(R.drawable.ic_baseline_favorite_border_24_red).getConstantState()){
-                    ivToWish.setImageResource(R.drawable.ic_baseline_favorite_24_red);
-                    addToWishList();
-                } else if(ivToWish.getDrawable().getConstantState()==getResources().getDrawable(R.drawable.ic_baseline_favorite_24_red).getConstantState()) {
-                    ivToWish.setImageResource(R.drawable.ic_baseline_favorite_border_24_red);
-                    removeWishList();
+                DatabaseReference wishRef = userRef.child(uid).child("wish");
+                if(wishList.size()==0){
+                    Wish wish = new Wish(mProduct.getProductId(), mProduct.getProductName(), mProduct.getProductPrice(), mProduct.getProductImage());
+                    wishRef.child(wish.getIdWish()).setValue(wish);
+                } else {
+                    int pos = 0;
+                    boolean exist = false;
+                    for(int i=0;i<wishList.size();i++){
+                        if(wishList.get(i).getIdWish().equals(mProduct.getProductId())){
+                            pos = i;
+                            exist = true;
+                        }
+                    }
+                    if(exist==true){
+                        wishRef.child(wishList.get(pos).getIdWish()).removeValue();
+                    } else {
+                        Wish wish = new Wish(mProduct.getProductId(), mProduct.getProductName(), mProduct.getProductPrice(), mProduct.getProductImage());
+                        wishRef.child(wish.getIdWish()).setValue(wish);
+                    }
                 }
             }
         });
@@ -252,9 +265,6 @@ public class DetailProductFragment extends Fragment {
                     tvAverage.setText(0+"");
                     tvCount.setText(0+"");
                 }
-
-
-
             }
 
             @Override

@@ -50,7 +50,6 @@ public class AMChatFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         rcv = view.findViewById(R.id.rcvAMCF);
         rcv.setLayoutManager(new LinearLayoutManager(getContext()));
-        rcv.setHasFixedSize(true);
         chatRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

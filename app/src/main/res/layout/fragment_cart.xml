@@ -21,6 +21,14 @@
                 android:src="@drawable/ic_baseline_keyboard_backspace_24_red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Giỏ hàng"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/Brown"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
     <androidx.recyclerview.widget.RecyclerView

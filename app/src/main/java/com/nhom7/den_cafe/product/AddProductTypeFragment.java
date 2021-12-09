@@ -92,7 +92,7 @@ public class AddProductTypeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if(edName.getEditText().getText().toString().trim().equals("")){
-                    edName.setError("Bạn chưa nhập vào tên cho loại sản phẩm");
+                    edName.setError("Bạn chưa nhập vào tên cho loại món");
                 } else {
                     edName.setErrorEnabled(false);
                     addProductType();

@@ -77,6 +77,7 @@ public class SignInFragment extends Fragment {
     private CallbackManager mCallbackManager;
     private static final String TAG = SignInFragment.class.getName();
     private static final int RC_SIGN_IN = 123;
+    String uid = FirebaseAuth.getInstance().getUid();
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_signin, container, false);
@@ -97,9 +98,20 @@ public class SignInFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String phone = edPhone.getEditText().getText().toString().trim();
-                if(validatePhone()>0){
-                    VerifyPhoneNumber(phone);
+                int pos = 0;
+                for(int i=0;i<list.size();i++){
+                    if(list.get(i).getUserId().equals(uid)){
+                        pos = i;
+                    }
                 }
+                if(list.get(pos).isStatus()==true){
+                    Toast.makeText(getActivity(), "Tài khoản hiện đang hoạt động trên thiết bị khác", Toast.LENGTH_SHORT).show();
+                } else {
+                    if(validatePhone()>0){
+                        VerifyPhoneNumber(phone);
+                    }
+                }
+                
             }
         });
         cvHelp.setOnClickListener(new View.OnClickListener() {

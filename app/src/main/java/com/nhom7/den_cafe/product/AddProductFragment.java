@@ -227,7 +227,7 @@ public class AddProductFragment extends Fragment {
                                     public void onSuccess(Void unused) {
                                         progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
-                                        Toast.makeText(getContext(), "Đã thêm sản phẩm", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getContext(), "Đã thêm món", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             } else if(intype==2) {
@@ -243,7 +243,7 @@ public class AddProductFragment extends Fragment {
                                         imageRef.delete();
                                         progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
-                                        Toast.makeText(getContext(), "Đã cập nhật sản phẩm", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getContext(), "Đã cập nhật món", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }
@@ -252,14 +252,14 @@ public class AddProductFragment extends Fragment {
                         }
                     });
         } else {
-            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho sản phẩm", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho món", Toast.LENGTH_SHORT).show();
         }
     }
 
     private int validateProductName(){
         int result = 1;
         if(edName.getEditText().getText().toString().trim().equals("")){
-            edName.setError("Bạn chưa nhập tên cho sản phẩm");
+            edName.setError("Bạn chưa nhập tên cho món");
             result = 0;
         } else {
             edName.setErrorEnabled(false);
@@ -270,7 +270,7 @@ public class AddProductFragment extends Fragment {
     private int validateProductPrice(){
         int result = 1;
         if(edPrice.getEditText().getText().toString().trim().equals("")){
-            edPrice.setError("Bạn chưa nhập giá cho sản phẩm");
+            edPrice.setError("Bạn chưa nhập giá cho món");
             result = 0;
         } else {
             edPrice.setErrorEnabled(false);
