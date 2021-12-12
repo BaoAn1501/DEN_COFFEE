@@ -35,7 +35,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="tên loại sản phẩm"/>
+            android:hint="tên loại món"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.cardview.widget.CardView

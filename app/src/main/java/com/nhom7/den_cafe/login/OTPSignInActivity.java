@@ -154,7 +154,7 @@ public class OTPSignInActivity extends AppCompatActivity {
                             FirebaseUser user = task.getResult().getUser();
                             if(phonenumber.equals("+84387463895")){
                                 DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("list_user");
-                                userRef.child(user.getUid()).setValue(new User(user.getUid(), "DEN CAFE", user.getPhoneNumber(), "dencafe@gmail.com","default"));
+                                userRef.child(user.getUid()).setValue(new User(user.getUid(), "ĐEN CAFE", user.getPhoneNumber(), "dencafe@gmail.com","default"));
                                 startActivity(new Intent(OTPSignInActivity.this, AdminMainActivity.class).putExtra("phone", phonenumber));
                             } else{
                                 startActivity(new Intent(OTPSignInActivity.this, UserMainActivity.class).putExtra("phone", phonenumber));

@@ -11,15 +11,18 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.adapter.UserListChatAMAdapter;
 import com.nhom7.den_cafe.adapter.UserListChatAdapter;
+import com.nhom7.den_cafe.chat.Token;
 import com.nhom7.den_cafe.model.Chat;
 import com.nhom7.den_cafe.model.User;
 
@@ -73,6 +76,12 @@ public class AMChatFragment extends Fragment {
 
             }
         });
+        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                updateToken(s);
+            }
+        });
     }
 
     private void readChats() {
@@ -109,5 +118,11 @@ public class AMChatFragment extends Fragment {
 
             }
         });
+    }
+
+    private void updateToken(String token){
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("tokens");
+        Token token1 = new Token(token);
+        databaseReference.child(myUid).setValue(token1);
     }
 }

@@ -134,7 +134,7 @@ public class AddProductTypeFragment extends Fragment {
                                     public void onSuccess(Void unused) {
                                         progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
-                                        Toast.makeText(getContext(), "Đã thêm loại sản phẩm", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getContext(), "Đã thêm loại món", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             } else if(intype==2) {
@@ -146,7 +146,7 @@ public class AddProductTypeFragment extends Fragment {
                                         imageRef.delete();
                                         progressDialog.dismiss();
                                         loadFragment(new AMProductFragment());
-                                        Toast.makeText(getContext(), "Đã cập nhật loại sản phẩm", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getContext(), "Đã cập nhật loại món", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }
@@ -155,7 +155,7 @@ public class AddProductTypeFragment extends Fragment {
                         }
                     });
         } else {
-            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho loại sản phẩm", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho loại món", Toast.LENGTH_SHORT).show();
         }
     }
 

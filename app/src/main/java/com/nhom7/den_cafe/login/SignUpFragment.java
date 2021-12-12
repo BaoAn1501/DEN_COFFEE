@@ -71,7 +71,7 @@ public class SignUpFragment extends Fragment {
         cvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(validateEmail()>0 && validatePhone()>0 && validateName()>0){
+                if(validateName()>0 && validateEmail()>0 && validatePhone()>0){
                     String name = edName.getEditText().getText().toString().trim();
                     String phone = edPhone.getEditText().getText().toString().trim();
                     String email = edEmail.getEditText().getText().toString().trim();
@@ -90,6 +90,7 @@ public class SignUpFragment extends Fragment {
     }
 
     private void validation(){
+        // bắt lỗi trực tiếp khi nhập text
         edEmail.getEditText().addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -201,7 +202,7 @@ public class SignUpFragment extends Fragment {
         }
         return result;
     }
-
+    // lấy danh sách người dùng từ firebase
     private void getListUser(){
         userRef.addValueEventListener(new ValueEventListener() {
             @Override

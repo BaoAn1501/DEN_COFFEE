@@ -114,7 +114,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DANH SÁCH SẢN PHẨM"
+        android:text="DANH SÁCH MÓN"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginStart="10dp"/>

@@ -185,7 +185,7 @@ public class UMPersonFragment extends Fragment {
                         }
                     });
         } else {
-            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho loại sản phẩm", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Bạn chưa chọn ảnh cho loại món", Toast.LENGTH_SHORT).show();
         }
     }
 }

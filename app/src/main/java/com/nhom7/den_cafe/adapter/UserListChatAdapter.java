@@ -61,7 +61,7 @@ public class UserListChatAdapter extends RecyclerView.Adapter<UserListChatAdapte
         holder.cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                context.startActivity(new Intent(context, MessageActivity.class).putExtra("from", 2).putExtra("user", user));
+                context.startActivity(new Intent(context, MessageActivity.class).putExtra("from", 2).putExtra("userid", user.getUserId()));
             }
         });
     }

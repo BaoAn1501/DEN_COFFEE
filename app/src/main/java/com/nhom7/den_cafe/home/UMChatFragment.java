@@ -30,6 +30,7 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import com.nhom7.den_cafe.R;
 import com.nhom7.den_cafe.adapter.SearchProductAdapter;
 import com.nhom7.den_cafe.adapter.UserListChatAdapter;
+import com.nhom7.den_cafe.chat.Token;
 import com.nhom7.den_cafe.model.Product;
 import com.nhom7.den_cafe.model.User;
 
@@ -46,6 +47,7 @@ public class UMChatFragment extends Fragment {
     UserListChatAdapter adapter;
     List<User> userList = new ArrayList<>();
     String uid = FirebaseAuth.getInstance().getUid();
+    String token;
     @Nullable
     @org.jetbrains.annotations.Nullable
     @Override
@@ -80,7 +82,17 @@ public class UMChatFragment extends Fragment {
 
             }
         });
+        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                updateToken(s);
+            }
+        });
+    }
 
+    private void saveToken(String token) {
+        DatabaseReference tokenRef = FirebaseDatabase.getInstance().getReference("tokens");
+        tokenRef.child(uid).setValue(token);
     }
 
     private void getListAuto(CharSequence s) {
@@ -136,5 +148,11 @@ public class UMChatFragment extends Fragment {
 
             }
         });
+    }
+
+    private void updateToken(String token){
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("tokens");
+        Token token1 = new Token(token);
+        databaseReference.child(uid).setValue(token1);
     }
 }

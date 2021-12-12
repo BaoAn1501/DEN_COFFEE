@@ -98,20 +98,9 @@ public class SignInFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String phone = edPhone.getEditText().getText().toString().trim();
-                int pos = 0;
-                for(int i=0;i<list.size();i++){
-                    if(list.get(i).getUserId().equals(uid)){
-                        pos = i;
-                    }
+                if(validatePhone()>0){
+                    VerifyPhoneNumber(phone);
                 }
-                if(list.get(pos).isStatus()==true){
-                    Toast.makeText(getActivity(), "Tài khoản hiện đang hoạt động trên thiết bị khác", Toast.LENGTH_SHORT).show();
-                } else {
-                    if(validatePhone()>0){
-                        VerifyPhoneNumber(phone);
-                    }
-                }
-                
             }
         });
         cvHelp.setOnClickListener(new View.OnClickListener() {
@@ -166,21 +155,27 @@ public class SignInFragment extends Fragment {
     }
     private int validatePhone(){
         int result = 1;
-        int getphone = 0;
-        for(int i=0;i<list.size();i++){
-            if(list.get(i).getUserPhone().equals(edPhone.getEditText().getText().toString().trim())){
-                getphone++;
-            }
+        String regphone = "^(\\+84)(\\s|\\.)?((3[2-9])|(5[689])|(7[06-9])|(8[1-689])|(9[0-46-9]))(\\d)(\\s|\\.)?(\\d{3})(\\s|\\.)?(\\d{3})$";
+        if(edPhone.getEditText().getText().toString().trim().equals("")){
+            edPhone.setError("Số điện thoại không được để trống");
+            result=0;
+        } else if(!edPhone.getEditText().getText().toString().trim().matches(regphone)){
+            edPhone.setError("Số điện thoại không đúng định dạng");
+            result=0;
         }
-        if(getphone==0){
-            edPhone.setError("Số điện thoại chưa được đăng ký");
-            result = 0;
+        else {
+            edPhone.setErrorEnabled(false);
+        }
+        if(edPhone.getEditText().getText().toString().equals("+84387463895")){
+            edPhone.setErrorEnabled(true);
+            result = 1;
         } else {
-            edPhone.setErrorEnabled(false);
-        }
-        if(edPhone.getEditText().getText().toString().trim().equals("+84387463895")){
-            result=1;
-            edPhone.setErrorEnabled(false);
+            for(int i=0;i<list.size();i++){
+                if(!list.get(i).getUserPhone().equals(edPhone.getEditText().getText().toString().trim())){
+                    edPhone.setError("Số điện thoại chưa được đăng ký");
+                    result = 0;
+                }
+            }
         }
         return result;
     }
